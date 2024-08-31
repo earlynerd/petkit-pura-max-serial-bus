@@ -61,3 +61,23 @@ sample packet<br/>
 `0x80`: the most significant bit in this byte is definitely some sort of flag, and the lower 7 bits may also be flags. TBD.<br/>
 `0x00000000000200640003`: payload data. exact meaning TBD. for this motor command, it should indicate which motor, how fast, how much current, etc.<br/>
 `0x3EA0`: CRC-16 CCITT with `0xFFFF` seed. sent Least significant byte first (the feeder sent this in the reverse order). <br/>
+
+# ESP32 init/boot commands
+
+always starts with command type 9. Then, then the ISD responds, follows up with this burst of subsequent initialization commands. <br/>
+```
+ESP32, n:32,time:111730, packet type:9, length:9, seq:4, unkbit:1, unk:0, crc:5F82, calccrc:5F82, valid:1, Raw:0x5AA5090904FF80825F
+"5AA50C0902FF80000B74B328" <- Expected ISD response
+ESP32, n:33,time:116693, packet type:2, length:19, seq:3, unkbit:0, unk:0, crc:1536, calccrc:1536, valid:1, Raw:0x5AA5130203FF00020000000002006400003615
+ESP32, n:34,time:116733, packet type:2, length:19, seq:4, unkbit:0, unk:1, crc:0777, calccrc:0777, valid:1, Raw:0x5AA5130204FF01020000000002006400007707
+ESP32, n:35,time:116734, packet type:12, length:17, seq:4, unkbit:0, unk:0, crc:D2B7, calccrc:D2B7, valid:1, Raw:0x5AA5110C04FF000AC80F0A0A0A0500B7D2
+ESP32, n:36,time:116734, packet type:12, length:17, seq:5, unkbit:0, unk:1, crc:4948, calccrc:4948, valid:1, Raw:0x5AA5110C05FF01C800C800C800C8004849
+ESP32, n:37,time:116775, packet type:12, length:16, seq:6, unkbit:0, unk:2, crc:1C74, calccrc:1C74, valid:1, Raw:0x5AA5100C06FF02FC011F004C7001741C
+ESP32, n:38,time:116775, packet type:13, length:16, seq:3, unkbit:0, unk:0, crc:EAF9, calccrc:EAF9, valid:1, Raw:0x5AA5100D03FF0002FF0A001E0006F9EA
+ESP32, n:39,time:116816, packet type:13, length:16, seq:4, unkbit:0, unk:1, crc:B1D0, calccrc:B1D0, valid:1, Raw:0x5AA5100D04FF0102FF0A001E0006D0B1
+ESP32, n:40,time:116816, packet type:4, length:20, seq:3, unkbit:0, unk:0, crc:E97D, calccrc:E97D, valid:1, Raw:0x5AA5140403FF00000000DC05C8001E0014007DE9
+ESP32, n:41,time:116857, packet type:4, length:20, seq:4, unkbit:0, unk:1, crc:8F85, calccrc:8F85, valid:1, Raw:0x5AA5140404FF010000001405C8001E001400858F
+ESP32, n:42,time:116857, packet type:0, length:10, seq:2, unkbit:0, unk:0, crc:7387, calccrc:7387, valid:1, Raw:0x5AA50A0002FF00008773
+ESP32, n:43,time:116898, packet type:1, length:12, seq:3, unkbit:0, unk:0, crc:482F, calccrc:482F, valid:1, Raw:0x5AA50C0103FF000A0A0A2F48
+ESP32, n:44,time:116898, packet type:7, length:14, seq:2, unkbit:0, unk:0, crc:DFCA, calccrc:DFCA, valid:1, Raw:0x5AA50E0702FF00050A000A00CADF
+```
