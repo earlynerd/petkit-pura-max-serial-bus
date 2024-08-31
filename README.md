@@ -62,6 +62,13 @@ sample packet<br/>
 `0x00000000000200640003`: payload data. exact meaning TBD. for this motor command, it should indicate which motor, how fast, how much current, etc.<br/>
 `0x3EA0`: CRC-16 CCITT with `0xFFFF` seed. sent Least significant byte first (the feeder sent this in the reverse order). <br/>
 
+commands of the same type can be different langths, but commands of matching type and matching "unknown" field are always the same length. it must be a node or address or subcommand type field. 
+
+# Bus Dynamics
+
+Every ESP32 command must be followed up with an acknowledgement from the ISD. But the ISD also initiates updates to the ESP32 without being queried. When a sensor changes there is a corresponding update.  <br/>
+I thin k the regular updates are just a list of the status of all the sensors. 
+
 # ESP32 init/boot commands
 
 always starts with command type 9. Then, then the ISD responds, follows up with this burst of subsequent initialization commands. <br/>
