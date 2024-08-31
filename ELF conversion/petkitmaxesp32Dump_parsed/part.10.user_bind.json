@@ -1,0 +1,195 @@
+[
+    {
+        "page_state": "ACTIVE",
+        "page_seq_no": 0,
+        "page_version": 2,
+        "page_crc_32": 3115986308,
+        "page_entry_state_bitmap": "000200000000000000000000000000000000000000000000000000000000000022002222222232223333333333333333333333333333333333333333333333",
+        "entries": [
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "T4",
+                "entry_data_type": "U8",
+                "entry_data": 1
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 12,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 328,
+                "entry_data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC04LjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTguMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBbWVyaWNhL0xvc19BbmdlbGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHR0cHM6Ly9hcGkucGV0a3QuY29tL2xhdGVzdC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 328,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 12,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 328,
+                "entry_data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC04LjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTguMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBbWVyaWNhL0xvc19BbmdlbGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHR0cHM6Ly9hcGkucGV0a3QuY29tL2xhdGVzdC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1cy13ZXN0LTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 328,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 12,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 328,
+                "entry_data": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC04LjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTguMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBbWVyaWNhL0xvc19BbmdlbGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHR0cHM6Ly9hcGkucGV0a3QuY29tL2xhdGVzdC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1cy13ZXN0LTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 328,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 12,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 328,
+                "entry_data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC04LjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTguMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBbWVyaWNhL0xvc19BbmdlbGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHR0cHM6Ly9hcGkucGV0a3QuY29tL2xhdGVzdC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1cy13ZXN0LTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 328,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 12,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 328,
+                "entry_data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC03LjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTcuMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBbWVyaWNhL0xvc19BbmdlbGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHR0cDovL2FwaS5wZXRrdC5jb20vNi8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1cy13ZXN0LTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 328,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 12,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 328,
+                "entry_data": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC03LjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTcuMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBbWVyaWNhL0xvc19BbmdlbGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHR0cDovL2FwaS5wZXRrdC5jb20vNi8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1cy13ZXN0LTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 328,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            }
+        ]
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "page_state": "ACTIVE",
+        "page_seq_no": 0,
+        "page_version": 2,
+        "page_crc_32": 3115986308,
+        "page_entry_state_bitmap": "000200000000000000000000222032223333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": [
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "T4",
+                "entry_data_type": "U8",
+                "entry_data": 1
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 5,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 128,
+                "entry_data": "QVRUQ0dwVnBBYQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHcmVlbm1vbmtleQAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAicv+P2DM/j8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 128,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 5,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 128,
+                "entry_data": "QVRUQ0dwVnBBYQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHcmVlbm1vbmtleQAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAccb+P6TG/j84j/4/AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 128,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 5,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 128,
+                "entry_data": "QVRUQ0dwVnBBYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcMX+P3sia2V5IjoxMTIsInBheWxvYWQiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 128,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 5,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 128,
+                "entry_data": "QVRUVnhhY1Q0Sl8yLjRHaHoAAAAAAAAAAAAAAAAAAAAyNmJrNnVhcD96cjkAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAcwD+P8Sy/j8gs/4/NLP+P4yz/j/Isv4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 128,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 5,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 128,
+                "entry_data": "WUFNXzIuNEdoel9FWFQAAAAAAAAAAAAAAAAAAAAAAAAyNmJrNnVhcD96cjkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 128,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            }
+        ]
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    }
+]

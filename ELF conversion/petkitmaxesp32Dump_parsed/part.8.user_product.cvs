@@ -1,0 +1,4 @@
+# NVS csv file
+key,type,encoding,value
+T4,namespace,,
+data,file,binary,parsed/nvs_blob_data\data.bin

@@ -1,0 +1,106 @@
+[
+    {
+        "page_state": "ACTIVE",
+        "page_seq_no": 0,
+        "page_version": 2,
+        "page_crc_32": 3115986308,
+        "page_entry_state_bitmap": "222222222222222222222222222222222222222222222222222222222222222232223333333333333333333333333333333333333333333333333333333333",
+        "entries": [
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "phy",
+                "entry_data_type": "U8",
+                "entry_data": 1
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 61,
+                "entry_chunk_index": 0,
+                "entry_key": "cal_data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 1904,
+                "entry_data": "VBAAAKhI+kxOeAAAcIgAAAAAMABKTAAAcIgAAIgIMABKTAAAcIgAABERMABKTAAAcIgAAJkZMABKTAAAbogAACIiMABKTAAAbogAAKsqMABKTAAAbogAADMzMABKTAAAbogAALs7MABKTAAAbogAAEREMABKTAAAbYgAAM1MMABKTAAAbYgAAFVVMABKTAAAbYgAAN5dMABKTAAAbIgA/2ZmMABKTAAAa4gAAO9uMABJTAAAa4gAAHd3MABJTAAAa4gAAACAMABJTAAAa4gAAIiIMABJTAAAa4gAABGRMABJTAAAa4gAAJmZMABJTAAAa4gAACKiMABJTAAAaogAAKuqMABJSwAAaogAADOzMABJSwAAaogAALu7MABJSwAAaogAAETEMABJSwAAaogAAM3MMABJSwAAaIgAAFXVMABJSwAAaIgAAN7dMABJSwAAaIgAAGbmMABJSwAAaIgAAO/uMABJSwAAaIgAAHf3MABJSwAAaIgAAAAAMQBJSwAAaIgAAIgIMQBJSwAAaIgAABERMQBJSwAAZogAAJkZMQBJSwAAZogAACIiMQBJSwAAZogAAKsqMQBJSwAAZogAADMzMQBJSwAAZIgAALs7MQBJSwAAZIgAAEREMQBJSwAAZIgAAM1MMQBJSwAAZIgAAFVVMQBJSwAAZIgAAN5dMQBJSwAAZIgAAGZmMQBJSwAAZIgAAO9uMQBJSwAAZIgAAHd3MQBJSwAAYogAAACAMQBISwAAYogAAIiIMQBISwAAYogAABGRMQBISwAAYogAAJmZMQBISwAAYogAACKiMQBISwAAYogAAKuqMQBISwAAYogAADOzMQBISwAAYogAALu7MQBISwAAYIgAAETEMQBISgAAYIgAAM3MMQBISgAAYIgAAFXVMQBISgAAYIgAAN7dMQBISgAAYIgAAGbmMQBISgAAYIgAAO/uMQBISgAAYIgAAHf3MQBISgAAYIgAAAAAMgBISgAAXogAAIgIMgBISgAAXogAABERMgBISgAAXogAAJkZMgBISgAAXogAACIiMgBISgAAXogAAKsqMgBISgAAXYgAADMzMgBISgAAXYgAALs7MgBISgAAXYgAAEREMgBISgAAXYgAAM1MMgBISgAAW4gAAFVVMgBISgAAW4gAAN5dMgBISgAAW4gAAGZmMgBISgAAW4gAAO9uMgBISgAAW4gAAHd3MgBISgAAW4gAAACAMgBISgAAW4gAAIiIMgBISgAAW4gAABGRMgBISgAAWogAAJmZMgBISgAAWogAACKiMgBISgAAWogAAKuqMgBISgAAWogAADOzMgBISgAAWogAALu7MgBISgAAWYgAAETEMgBHSgAAWYgAAM3MMgBHSgAAAAAAAPj//wAAAAAAAAAAAO8A8gAAAf4A8gDyAP8A/wD0APUA/wACAfUA+AD+AAMB9gD5AAABAQEBAEEHAABAAEAAQAAPBwMPBwMPBwMPBwPBB4L+KQsAAEZGGRlbW05IQjw4NPH3/QMHCvX7AgcLD/b9AwkNEfb9AwkNEUBAQUJDSUdLACAUHh4aIBocABoA+vwCAgAAgQfBB8EH6wDoAP0A/gDyAPUAAAH/APYA+wAAAf8AUT6C/gAAAAAAAAAATwCgAEUALw0AAAEAAgADAAQAAAQBBAIEAwQEBAUECAQJBAoEADABMAIwAzAEMAUwADQBNAI0AzQENAA4ATgCOABAAUACQANABEAFQABEAUQCRANEBEQASAFIAkgDSARIBUgISAlICkgLSAxIDUgYSBlIGkgbSBxIHUg4SDlIOkg7SDxIPUgAAAAAAAAAAAAAAAAAAAAAAQACAAMABAAABAEEAgQDBAQEBQQIBAkECgQAMAEwAjADMAQwBTAANAE0AjQDNAQ0ADgBOAI4AEABQAJAA0AEQAVAAEQBRAJEA0QERABIAUgCSANIAFABUAJQA1AEUAVQAFQBVAJUA1QAWAFYAlgDWARYAFwBXAJcA1wEXAVcCFwJXApcC1wMXA1cGFwZXBpcG1wcXB1cOFw5XDpcO1w8XD1cAAAAAAAAAAAAAAAAAAAAABYB8gAWAfIAFgHyABYB8gAaAfIAGgHyABYB9AAWAfQABwH7AAcB+wAKAfsACgH7AAoB+wAKAfsACgH7AAoB+wAKAfsACgH7AAoB/gAKAf4ACgEBAQoBAQEKAQEBCgEBAQoBAQEKAQEBCgEBAQoBAQEKAQIBCgECAQoBAgEKAQIBCgECARkB4AAcAdgAHAHYAB4B2AAhAd0AKwHdAM9dgPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "cal_data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 1904,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 2,
+                "entry_chunk_index": 0,
+                "entry_key": "cal_mac",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 6,
+                "entry_data": "qEj6TE54"
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "cal_mac",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 6,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "phy",
+                "entry_type": "U32",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "cal_version",
+                "entry_data_type": "U32",
+                "entry_data": 4180
+            }
+        ]
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    }
+]

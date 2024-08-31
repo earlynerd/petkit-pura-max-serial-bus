@@ -1,0 +1,281 @@
+Reading firmware from: esp32.bin
+Writing bootloader to: parsed/bootloader.bin
+Bootloader image info:
+=================================================================================
+Image version: 1
+Entry point: 400806a0
+real partition size: 25360
+secure_pad: None
+flash_mode: 2
+flash_size_freq: 48
+4 segments
+
+Segment 1 : len 0x00004 load 0x3fff0030 file_offs 0x00000018 include_in_checksum=True BYTE_ACCESSIBLE,DRAM,DIRAM_DRAM
+Segment 2 : len 0x01d40 load 0x3fff0034 file_offs 0x00000024 include_in_checksum=True BYTE_ACCESSIBLE,DRAM,DIRAM_DRAM
+Segment 3 : len 0x03598 load 0x40078000 file_offs 0x00001d6c include_in_checksum=True CACHE_APP
+Segment 4 : len 0x00fd4 load 0x40080400 file_offs 0x0000530c include_in_checksum=True IRAM
+Checksum: e7 (valid)
+Validation Hash: 3d8e5d7b7f4d6345b451ca29fa4053fa7b05323a44ed29f53e03048ebaa46c4e (valid)
+Segment at addr=0x3fff0030 => {'BYTE_ACCESSIBLE', 'DIRAM_DRAM', 'DRAM'} => .dram0.data
+Segment at addr=0x3fff0034 => {'BYTE_ACCESSIBLE', 'DIRAM_DRAM', 'DRAM'} => .dram0.data
+Join segments 0x3fff0030 and 0x3fff0034
+Segment at addr=0x40078000 => {'CACHE_APP'} => .iram_loader.text
+Segment at addr=0x40080400 => {'IRAM'} => .iram0.text
+
+Adding program headers
+prg_seg 0 : 3fff0030 00001d44 rw .dram0.data
+prg_seg 1 : 40078000 00003598 rx .iram_loader.text
+prg_seg 2 : 40080400 00000fd4 rwx .iram0.text
+Program Headers:
+Type  Offset    VirtAddr  PhysAddr  FileSize  MemSize  Flg Align
+ 1    000001c1  3fff0030  3fff0030  00001d44  00001d44  6  1000
+ 1    00001f05  40078000  40078000  00003598  00003598  5  1000
+ 1    0000549d  40080400  40080400  00000fd4  00000fd4  7  1000
+
+Writing ELF to parsed/bootloader.bin.elf...
+=================================================================================
+
+Partition table found at: 8000
+Verifying partitions table...
+Writing partitions table to: parsed/partitions.csv
+Writing partitions table to: parsed/partitions.bin
+PARTITIONS:
+   0  nvs      DATA:nvs   off=0x00009000 sz=0x00004000  parsed/part.0.nvs
+      Parsing NVS partition: parsed/part.0.nvs to parsed/part.0.nvs.cvs
+      Parsing NVS partition: parsed/part.0.nvs to parsed/part.0.nvs.txt
+      Parsing NVS partition: parsed/part.0.nvs to parsed/part.0.nvs.json
+   1  otadata  DATA:ota   off=0x0000d000 sz=0x00002000  parsed/part.1.otadata
+   2  phy_init DATA:phy   off=0x0000f000 sz=0x00001000  parsed/part.2.phy_init
+   3  ota_0    APP :ota_0 off=0x00010000 sz=0x00200000  parsed/part.3.ota_0
+   4  user_ptnmg_0 DATA:nvs   off=0x00270000 sz=0x00004000  parsed/part.4.user_ptnmg_0
+      Parsing NVS partition: parsed/part.4.user_ptnmg_0 to parsed/part.4.user_ptnmg_0.cvs
+      Parsing NVS partition: parsed/part.4.user_ptnmg_0 to parsed/part.4.user_ptnmg_0.txt
+      Parsing NVS partition: parsed/part.4.user_ptnmg_0 to parsed/part.4.user_ptnmg_0.json
+   5  user_ptnmg_1 DATA:nvs   off=0x00274000 sz=0x00004000  parsed/part.5.user_ptnmg_1
+      Parsing NVS partition: parsed/part.5.user_ptnmg_1 to parsed/part.5.user_ptnmg_1.cvs
+      Parsing NVS partition: parsed/part.5.user_ptnmg_1 to parsed/part.5.user_ptnmg_1.txt
+      Parsing NVS partition: parsed/part.5.user_ptnmg_1 to parsed/part.5.user_ptnmg_1.json
+   6  user_sn  DATA:nvs   off=0x00280000 sz=0x00004000  parsed/part.6.user_sn
+      Parsing NVS partition: parsed/part.6.user_sn to parsed/part.6.user_sn.cvs
+      Parsing NVS partition: parsed/part.6.user_sn to parsed/part.6.user_sn.txt
+      Parsing NVS partition: parsed/part.6.user_sn to parsed/part.6.user_sn.json
+   7  user_id  DATA:nvs   off=0x00290000 sz=0x00004000  parsed/part.7.user_id
+      Parsing NVS partition: parsed/part.7.user_id to parsed/part.7.user_id.cvs
+      Parsing NVS partition: parsed/part.7.user_id to parsed/part.7.user_id.txt
+      Parsing NVS partition: parsed/part.7.user_id to parsed/part.7.user_id.json
+   8  user_product DATA:nvs   off=0x00298000 sz=0x00004000  parsed/part.8.user_product
+      Parsing NVS partition: parsed/part.8.user_product to parsed/part.8.user_product.cvs
+      Parsing NVS partition: parsed/part.8.user_product to parsed/part.8.user_product.txt
+      Parsing NVS partition: parsed/part.8.user_product to parsed/part.8.user_product.json
+   9  user_calibrt DATA:nvs   off=0x002a0000 sz=0x00004000  parsed/part.9.user_calibrt
+      Parsing NVS partition: parsed/part.9.user_calibrt to parsed/part.9.user_calibrt.cvs
+      Parsing NVS partition: parsed/part.9.user_calibrt to parsed/part.9.user_calibrt.txt
+      Parsing NVS partition: parsed/part.9.user_calibrt to parsed/part.9.user_calibrt.json
+  10  user_bind DATA:nvs   off=0x002a8000 sz=0x00004000  parsed/part.10.user_bind
+      Parsing NVS partition: parsed/part.10.user_bind to parsed/part.10.user_bind.cvs
+      Parsing NVS partition: parsed/part.10.user_bind to parsed/part.10.user_bind.txt
+      Parsing NVS partition: parsed/part.10.user_bind to parsed/part.10.user_bind.json
+  11  user_server DATA:nvs   off=0x002b0000 sz=0x00004000  parsed/part.11.user_server
+      Parsing NVS partition: parsed/part.11.user_server to parsed/part.11.user_server.cvs
+      Parsing NVS partition: parsed/part.11.user_server to parsed/part.11.user_server.txt
+      Parsing NVS partition: parsed/part.11.user_server to parsed/part.11.user_server.json
+  12  user_config DATA:nvs   off=0x002b8000 sz=0x00004000  parsed/part.12.user_config
+      Parsing NVS partition: parsed/part.12.user_config to parsed/part.12.user_config.cvs
+      Parsing NVS partition: parsed/part.12.user_config to parsed/part.12.user_config.txt
+      Parsing NVS partition: parsed/part.12.user_config to parsed/part.12.user_config.json
+  13  user_sys_sta DATA:nvs   off=0x002c0000 sz=0x00004000  parsed/part.13.user_sys_sta
+      Parsing NVS partition: parsed/part.13.user_sys_sta to parsed/part.13.user_sys_sta.cvs
+      Parsing NVS partition: parsed/part.13.user_sys_sta to parsed/part.13.user_sys_sta.txt
+      Parsing NVS partition: parsed/part.13.user_sys_sta to parsed/part.13.user_sys_sta.json
+  14  user_schdl DATA:nvs   off=0x002c8000 sz=0x00008000  parsed/part.14.user_schdl
+      Parsing NVS partition: parsed/part.14.user_schdl to parsed/part.14.user_schdl.cvs
+      Parsing NVS partition: parsed/part.14.user_schdl to parsed/part.14.user_schdl.txt
+      Parsing NVS partition: parsed/part.14.user_schdl to parsed/part.14.user_schdl.json
+  15  user_msg DATA:nvs   off=0x002e8000 sz=0x00008000  parsed/part.15.user_msg
+      Parsing NVS partition: parsed/part.15.user_msg to parsed/part.15.user_msg.cvs
+      Parsing NVS partition: parsed/part.15.user_msg to parsed/part.15.user_msg.txt
+      Parsing NVS partition: parsed/part.15.user_msg to parsed/part.15.user_msg.json
+  16  user_res_A DATA:nvs   off=0x002f8000 sz=0x00004000  parsed/part.16.user_res_A
+      Parsing NVS partition: parsed/part.16.user_res_A to parsed/part.16.user_res_A.cvs
+      Parsing NVS partition: parsed/part.16.user_res_A to parsed/part.16.user_res_A.txt
+      Parsing NVS partition: parsed/part.16.user_res_A to parsed/part.16.user_res_A.json
+  17  user_res_B DATA:nvs   off=0x002fc000 sz=0x00004000  parsed/part.17.user_res_B
+      Parsing NVS partition: parsed/part.17.user_res_B to parsed/part.17.user_res_B.cvs
+      Parsing NVS partition: parsed/part.17.user_res_B to parsed/part.17.user_res_B.txt
+      Parsing NVS partition: parsed/part.17.user_res_B to parsed/part.17.user_res_B.json
+  18  user_pics_0 DATA:nvs   off=0x00300000 sz=0x00020000  parsed/part.18.user_pics_0
+      Parsing NVS partition: parsed/part.18.user_pics_0 to parsed/part.18.user_pics_0.cvs
+      Parsing NVS partition: parsed/part.18.user_pics_0 to parsed/part.18.user_pics_0.txt
+      Parsing NVS partition: parsed/part.18.user_pics_0 to parsed/part.18.user_pics_0.json
+  19  user_lans_01 DATA:nvs   off=0x00320000 sz=0x00010000  parsed/part.19.user_lans_01
+      Parsing NVS partition: parsed/part.19.user_lans_01 to parsed/part.19.user_lans_01.cvs
+      Parsing NVS partition: parsed/part.19.user_lans_01 to parsed/part.19.user_lans_01.txt
+      Parsing NVS partition: parsed/part.19.user_lans_01 to parsed/part.19.user_lans_01.json
+  20  user_lans_02 DATA:nvs   off=0x00330000 sz=0x00010000  parsed/part.20.user_lans_02
+      Parsing NVS partition: parsed/part.20.user_lans_02 to parsed/part.20.user_lans_02.cvs
+      Parsing NVS partition: parsed/part.20.user_lans_02 to parsed/part.20.user_lans_02.txt
+      Parsing NVS partition: parsed/part.20.user_lans_02 to parsed/part.20.user_lans_02.json
+  21  user_lans_03 DATA:nvs   off=0x00340000 sz=0x00010000  parsed/part.21.user_lans_03
+      Parsing NVS partition: parsed/part.21.user_lans_03 to parsed/part.21.user_lans_03.cvs
+      Parsing NVS partition: parsed/part.21.user_lans_03 to parsed/part.21.user_lans_03.txt
+      Parsing NVS partition: parsed/part.21.user_lans_03 to parsed/part.21.user_lans_03.json
+  22  user_lans_04 DATA:nvs   off=0x00350000 sz=0x00012000  parsed/part.22.user_lans_04
+      Parsing NVS partition: parsed/part.22.user_lans_04 to parsed/part.22.user_lans_04.cvs
+      Parsing NVS partition: parsed/part.22.user_lans_04 to parsed/part.22.user_lans_04.txt
+      Parsing NVS partition: parsed/part.22.user_lans_04 to parsed/part.22.user_lans_04.json
+  23  user_lans_05 DATA:nvs   off=0x00362000 sz=0x00010000  parsed/part.23.user_lans_05
+      Parsing NVS partition: parsed/part.23.user_lans_05 to parsed/part.23.user_lans_05.cvs
+      Parsing NVS partition: parsed/part.23.user_lans_05 to parsed/part.23.user_lans_05.txt
+      Parsing NVS partition: parsed/part.23.user_lans_05 to parsed/part.23.user_lans_05.json
+  24  user_lans_06 DATA:nvs   off=0x00372000 sz=0x00010000  parsed/part.24.user_lans_06
+      Parsing NVS partition: parsed/part.24.user_lans_06 to parsed/part.24.user_lans_06.cvs
+      Parsing NVS partition: parsed/part.24.user_lans_06 to parsed/part.24.user_lans_06.txt
+      Parsing NVS partition: parsed/part.24.user_lans_06 to parsed/part.24.user_lans_06.json
+  25  user_lans_07 DATA:nvs   off=0x00382000 sz=0x00010000  parsed/part.25.user_lans_07
+      Parsing NVS partition: parsed/part.25.user_lans_07 to parsed/part.25.user_lans_07.cvs
+      Parsing NVS partition: parsed/part.25.user_lans_07 to parsed/part.25.user_lans_07.txt
+      Parsing NVS partition: parsed/part.25.user_lans_07 to parsed/part.25.user_lans_07.json
+  26  user_lans_08 DATA:nvs   off=0x00392000 sz=0x00014000  parsed/part.26.user_lans_08
+      Parsing NVS partition: parsed/part.26.user_lans_08 to parsed/part.26.user_lans_08.cvs
+      Parsing NVS partition: parsed/part.26.user_lans_08 to parsed/part.26.user_lans_08.txt
+      Parsing NVS partition: parsed/part.26.user_lans_08 to parsed/part.26.user_lans_08.json
+  27  user_lans_09 DATA:nvs   off=0x003a6000 sz=0x00014000  parsed/part.27.user_lans_09
+      Parsing NVS partition: parsed/part.27.user_lans_09 to parsed/part.27.user_lans_09.cvs
+      Parsing NVS partition: parsed/part.27.user_lans_09 to parsed/part.27.user_lans_09.txt
+      Parsing NVS partition: parsed/part.27.user_lans_09 to parsed/part.27.user_lans_09.json
+  28  user_lans_0a DATA:nvs   off=0x003ba000 sz=0x00014000  parsed/part.28.user_lans_0a
+      Parsing NVS partition: parsed/part.28.user_lans_0a to parsed/part.28.user_lans_0a.cvs
+      Parsing NVS partition: parsed/part.28.user_lans_0a to parsed/part.28.user_lans_0a.txt
+      Parsing NVS partition: parsed/part.28.user_lans_0a to parsed/part.28.user_lans_0a.json
+  29  ota_1    APP :ota_1 off=0x003d0000 sz=0x00200000  parsed/part.29.ota_1
+  30  user_pics_1 DATA:nvs   off=0x00630000 sz=0x00020000  parsed/part.30.user_pics_1
+      Parsing NVS partition: parsed/part.30.user_pics_1 to parsed/part.30.user_pics_1.cvs
+      Parsing NVS partition: parsed/part.30.user_pics_1 to parsed/part.30.user_pics_1.txt
+      Parsing NVS partition: parsed/part.30.user_pics_1 to parsed/part.30.user_pics_1.json
+  31  user_lans_11 DATA:nvs   off=0x00650000 sz=0x00010000  parsed/part.31.user_lans_11
+      Parsing NVS partition: parsed/part.31.user_lans_11 to parsed/part.31.user_lans_11.cvs
+      Parsing NVS partition: parsed/part.31.user_lans_11 to parsed/part.31.user_lans_11.txt
+      Parsing NVS partition: parsed/part.31.user_lans_11 to parsed/part.31.user_lans_11.json
+  32  user_lans_12 DATA:nvs   off=0x00660000 sz=0x00010000  parsed/part.32.user_lans_12
+      Parsing NVS partition: parsed/part.32.user_lans_12 to parsed/part.32.user_lans_12.cvs
+      Parsing NVS partition: parsed/part.32.user_lans_12 to parsed/part.32.user_lans_12.txt
+      Parsing NVS partition: parsed/part.32.user_lans_12 to parsed/part.32.user_lans_12.json
+  33  user_lans_13 DATA:nvs   off=0x00670000 sz=0x00010000  parsed/part.33.user_lans_13
+      Parsing NVS partition: parsed/part.33.user_lans_13 to parsed/part.33.user_lans_13.cvs
+      Parsing NVS partition: parsed/part.33.user_lans_13 to parsed/part.33.user_lans_13.txt
+      Parsing NVS partition: parsed/part.33.user_lans_13 to parsed/part.33.user_lans_13.json
+  34  user_lans_14 DATA:nvs   off=0x00680000 sz=0x00012000  parsed/part.34.user_lans_14
+      Parsing NVS partition: parsed/part.34.user_lans_14 to parsed/part.34.user_lans_14.cvs
+      Parsing NVS partition: parsed/part.34.user_lans_14 to parsed/part.34.user_lans_14.txt
+      Parsing NVS partition: parsed/part.34.user_lans_14 to parsed/part.34.user_lans_14.json
+  35  user_lans_15 DATA:nvs   off=0x00692000 sz=0x00010000  parsed/part.35.user_lans_15
+      Parsing NVS partition: parsed/part.35.user_lans_15 to parsed/part.35.user_lans_15.cvs
+      Parsing NVS partition: parsed/part.35.user_lans_15 to parsed/part.35.user_lans_15.txt
+      Parsing NVS partition: parsed/part.35.user_lans_15 to parsed/part.35.user_lans_15.json
+  36  user_lans_16 DATA:nvs   off=0x006a2000 sz=0x00010000  parsed/part.36.user_lans_16
+      Parsing NVS partition: parsed/part.36.user_lans_16 to parsed/part.36.user_lans_16.cvs
+      Parsing NVS partition: parsed/part.36.user_lans_16 to parsed/part.36.user_lans_16.txt
+      Parsing NVS partition: parsed/part.36.user_lans_16 to parsed/part.36.user_lans_16.json
+  37  user_lans_17 DATA:nvs   off=0x006b2000 sz=0x00010000  parsed/part.37.user_lans_17
+      Parsing NVS partition: parsed/part.37.user_lans_17 to parsed/part.37.user_lans_17.cvs
+      Parsing NVS partition: parsed/part.37.user_lans_17 to parsed/part.37.user_lans_17.txt
+      Parsing NVS partition: parsed/part.37.user_lans_17 to parsed/part.37.user_lans_17.json
+  38  user_lans_18 DATA:nvs   off=0x006c2000 sz=0x00014000  parsed/part.38.user_lans_18
+      Parsing NVS partition: parsed/part.38.user_lans_18 to parsed/part.38.user_lans_18.cvs
+      Parsing NVS partition: parsed/part.38.user_lans_18 to parsed/part.38.user_lans_18.txt
+      Parsing NVS partition: parsed/part.38.user_lans_18 to parsed/part.38.user_lans_18.json
+  39  user_lans_19 DATA:nvs   off=0x006d6000 sz=0x00014000  parsed/part.39.user_lans_19
+      Parsing NVS partition: parsed/part.39.user_lans_19 to parsed/part.39.user_lans_19.cvs
+      Parsing NVS partition: parsed/part.39.user_lans_19 to parsed/part.39.user_lans_19.txt
+      Parsing NVS partition: parsed/part.39.user_lans_19 to parsed/part.39.user_lans_19.json
+  40  user_lans_1a DATA:nvs   off=0x006ea000 sz=0x00014000  parsed/part.40.user_lans_1a
+      Parsing NVS partition: parsed/part.40.user_lans_1a to parsed/part.40.user_lans_1a.cvs
+      Parsing NVS partition: parsed/part.40.user_lans_1a to parsed/part.40.user_lans_1a.txt
+      Parsing NVS partition: parsed/part.40.user_lans_1a to parsed/part.40.user_lans_1a.json
+
+APP PARTITIONS INFO:
+=================================================================================
+Partition  ota_0    APP :ota_0 off=0x00010000 sz=0x00200000 
+-------------------------------------------------------------------
+Image version: 1
+Entry point: 40081298
+real partition size: 1493072
+secure_pad: None
+flash_mode: 2
+flash_size_freq: 48
+6 segments
+
+Segment 1 : len 0x47078 load 0x3f400020 file_offs 0x00000018 include_in_checksum=True DROM
+  DROM, app data: secure_version = 0000 app_version=V1.431-26-g4554439-dirty project_name=PK_T4 date=Dec 25 2023 time=14:34:34 sdk=V1.192-10-g7b48934b
+Segment 2 : len 0x04178 load 0x3ffbdb60 file_offs 0x00047098 include_in_checksum=True BYTE_ACCESSIBLE,DRAM
+Segment 3 : len 0x00400 load 0x40080000 file_offs 0x0004b218 include_in_checksum=True IRAM
+Segment 4 : len 0x049f0 load 0x40080400 file_offs 0x0004b620 include_in_checksum=True IRAM
+Segment 5 : len 0x1048f0 load 0x400d0020 file_offs 0x00050018 include_in_checksum=True IROM
+Segment 6 : len 0x17f10 load 0x40084df0 file_offs 0x00154910 include_in_checksum=True IRAM
+Checksum: fb (valid)
+Validation Hash: 00bf236488d62211ae92141269e7563505701256efd28a10300a12797c05e0d1 (valid)
+Segment at addr=0x3f400020 => {'DROM'} => .flash.rodata
+Segment at addr=0x3ffbdb60 => {'BYTE_ACCESSIBLE', 'DRAM'} => .dram0.data
+Segment at addr=0x40080000 => {'IRAM'} => .iram0.vectors
+Segment at addr=0x40080400 => {'IRAM'} => .iram0.text
+Segment at addr=0x40084df0 => {'IRAM'} => .iram0.text
+Join segments 0x40080400 and 0x40084df0
+Segment at addr=0x400d0020 => {'IROM'} => .flash.text
+
+Adding program headers
+combine section .iram0.vectors and .iram0.text in one program segment
+prg_seg 0 : 3f400020 00047078 rw .flash.rodata
+prg_seg 1 : 3ffbdb60 00004178 rw .dram0.data
+prg_seg 2 : 40080000 0001cd00 wrx .iram0.vectors
+prg_seg 3 : 400d0020 001048f0 rx .flash.text
+Program Headers:
+Type  Offset    VirtAddr  PhysAddr  FileSize  MemSize  Flg Align
+ 1    00000248  3f400020  3f400020  00047078  00047078  6  1000
+ 1    000472c0  3ffbdb60  3ffbdb60  00004178  00004178  6  1000
+ 1    0004b438  40080000  40080000  0001cd00  0001cd00  7  1000
+ 1    00068138  400d0020  400d0020  001048f0  001048f0  5  1000
+
+Writing ELF to parsed/part.3.ota_0.elf...
+Partition  ota_1    APP :ota_1 off=0x003d0000 sz=0x00200000 
+-------------------------------------------------------------------
+Image version: 1
+Entry point: 40081298
+real partition size: 1494400
+secure_pad: None
+flash_mode: 2
+flash_size_freq: 48
+6 segments
+
+Segment 1 : len 0x471c0 load 0x3f400020 file_offs 0x00000018 include_in_checksum=True DROM
+  DROM, app data: secure_version = 0000 app_version=V1.431-31-g0fe02ae-dirty project_name=PK_T4 date=Apr 18 2024 time=15:57:29 sdk=V1.192-10-g7b48934b
+Segment 2 : len 0x04178 load 0x3ffbdb60 file_offs 0x000471e0 include_in_checksum=True BYTE_ACCESSIBLE,DRAM
+Segment 3 : len 0x00400 load 0x40080000 file_offs 0x0004b360 include_in_checksum=True IRAM
+Segment 4 : len 0x048a8 load 0x40080400 file_offs 0x0004b768 include_in_checksum=True IRAM
+Segment 5 : len 0x104cd8 load 0x400d0020 file_offs 0x00050018 include_in_checksum=True IROM
+Segment 6 : len 0x18058 load 0x40084ca8 file_offs 0x00154cf8 include_in_checksum=True IRAM
+Checksum: 5d (valid)
+Validation Hash: b7b0cbb92945e2331a6f817b4fb805a26f4d05518696c62e181e0950bf2a55d3 (valid)
+Segment at addr=0x3f400020 => {'DROM'} => .flash.rodata
+Segment at addr=0x3ffbdb60 => {'BYTE_ACCESSIBLE', 'DRAM'} => .dram0.data
+Segment at addr=0x40080000 => {'IRAM'} => .iram0.vectors
+Segment at addr=0x40080400 => {'IRAM'} => .iram0.text
+Segment at addr=0x40084ca8 => {'IRAM'} => .iram0.text
+Join segments 0x40080400 and 0x40084ca8
+Segment at addr=0x400d0020 => {'IROM'} => .flash.text
+
+Adding program headers
+combine section .iram0.vectors and .iram0.text in one program segment
+prg_seg 0 : 3f400020 000471c0 rw .flash.rodata
+prg_seg 1 : 3ffbdb60 00004178 rw .dram0.data
+prg_seg 2 : 40080000 0001cd00 wrx .iram0.vectors
+prg_seg 3 : 400d0020 00104cd8 rx .flash.text
+Program Headers:
+Type  Offset    VirtAddr  PhysAddr  FileSize  MemSize  Flg Align
+ 1    00000248  3f400020  3f400020  000471c0  000471c0  6  1000
+ 1    00047408  3ffbdb60  3ffbdb60  00004178  00004178  6  1000
+ 1    0004b580  40080000  40080000  0001cd00  0001cd00  7  1000
+ 1    00068280  400d0020  400d0020  00104cd8  00104cd8  5  1000
+
+Writing ELF to parsed/part.29.ota_1.elf...
+=================================================================================
+

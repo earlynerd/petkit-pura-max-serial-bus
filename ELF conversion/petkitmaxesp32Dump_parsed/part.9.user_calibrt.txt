@@ -1,0 +1,1111 @@
+Page 0 ( offset=00000000 )
+  page state   : ACTIVE (0xfe 0xff 0xff 0xff) 
+  page seq no. : 0 (0x0 0x0 0x0 0x0) 
+  page version : 2 (0xfe) 
+  crc32 : 0xb9ba2d84 (offset=0000001c)
+  page entry state bitmap (decoded) : 000232223333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+  Read entries data ( offset = 00000040 ):
+  Entry 0 (offset = 00000040)
+  Bitmap State : Erased
+    Written Entry 0
+      NS Index : 0
+      Type : U8
+      Span : 1
+      ChunkIndex : 255
+      Key : T4
+      Data (U8) : 0x1
+
+  Entry 1 (offset = 00000060)
+  Bitmap State : Erased
+    Written Entry 1
+      NS Index : 1
+          NS : T4
+      Type : BLOB_DATA
+      Span : 2
+      ChunkIndex : 0
+      Key : data
+      Blob Data :
+        Size : 20 
+        Data :
+00000000: D8 DD 7D 00 5E B1 74 00  6F 44 6B 00 3E 00 00 00  ..}.^.t.oDk.>...
+00000010: 3F 00 00 00                                       ?...
+
+  Entry 3 (offset = 000000a0)
+  Bitmap State : Written
+    Written Entry 3
+      NS Index : 1
+          NS : T4
+      Type : BLOB_IDX
+      Span : 1
+      ChunkIndex : 255
+      Key : data
+      Blob IDX :
+        Size        : 20 
+        Chunk Count : 0 
+        Chunk Start  : 255 
+
+  Entry 4 (offset = 000000c0)
+  Bitmap State : Empty
+    Written Entry 4
+      NS Index : 1
+          NS : T4
+      Type : BLOB_DATA
+      Span : 2
+      ChunkIndex : 0
+      Key : data
+      Blob Data :
+        Size : 20 
+        Data :
+00000000: 28 13 72 00 AB 1C 68 00  79 2A 5E 00 41 00 00 00  (.r...h.y*^.A...
+00000010: 41 00 00 00                                       A...
+
+  Entry 6 (offset = 00000100)
+  Bitmap State : Written
+    Written Entry 6
+      NS Index : 1
+          NS : T4
+      Type : BLOB_IDX
+      Span : 1
+      ChunkIndex : 255
+      Key : data
+      Blob IDX :
+        Size        : 20 
+        Chunk Count : 0 
+        Chunk Start  : 255 
+
+  Entry 7 (offset = 00000120)
+  Bitmap State : Written
+  Entry 8 (offset = 00000140)
+  Bitmap State : Empty
+  Entry 9 (offset = 00000160)
+  Bitmap State : Empty
+  Entry 10 (offset = 00000180)
+  Bitmap State : Empty
+  Entry 11 (offset = 000001a0)
+  Bitmap State : Empty
+  Entry 12 (offset = 000001c0)
+  Bitmap State : Empty
+  Entry 13 (offset = 000001e0)
+  Bitmap State : Empty
+  Entry 14 (offset = 00000200)
+  Bitmap State : Empty
+  Entry 15 (offset = 00000220)
+  Bitmap State : Empty
+  Entry 16 (offset = 00000240)
+  Bitmap State : Empty
+  Entry 17 (offset = 00000260)
+  Bitmap State : Empty
+  Entry 18 (offset = 00000280)
+  Bitmap State : Empty
+  Entry 19 (offset = 000002a0)
+  Bitmap State : Empty
+  Entry 20 (offset = 000002c0)
+  Bitmap State : Empty
+  Entry 21 (offset = 000002e0)
+  Bitmap State : Empty
+  Entry 22 (offset = 00000300)
+  Bitmap State : Empty
+  Entry 23 (offset = 00000320)
+  Bitmap State : Empty
+  Entry 24 (offset = 00000340)
+  Bitmap State : Empty
+  Entry 25 (offset = 00000360)
+  Bitmap State : Empty
+  Entry 26 (offset = 00000380)
+  Bitmap State : Empty
+  Entry 27 (offset = 000003a0)
+  Bitmap State : Empty
+  Entry 28 (offset = 000003c0)
+  Bitmap State : Empty
+  Entry 29 (offset = 000003e0)
+  Bitmap State : Empty
+  Entry 30 (offset = 00000400)
+  Bitmap State : Empty
+  Entry 31 (offset = 00000420)
+  Bitmap State : Empty
+  Entry 32 (offset = 00000440)
+  Bitmap State : Empty
+  Entry 33 (offset = 00000460)
+  Bitmap State : Empty
+  Entry 34 (offset = 00000480)
+  Bitmap State : Empty
+  Entry 35 (offset = 000004a0)
+  Bitmap State : Empty
+  Entry 36 (offset = 000004c0)
+  Bitmap State : Empty
+  Entry 37 (offset = 000004e0)
+  Bitmap State : Empty
+  Entry 38 (offset = 00000500)
+  Bitmap State : Empty
+  Entry 39 (offset = 00000520)
+  Bitmap State : Empty
+  Entry 40 (offset = 00000540)
+  Bitmap State : Empty
+  Entry 41 (offset = 00000560)
+  Bitmap State : Empty
+  Entry 42 (offset = 00000580)
+  Bitmap State : Empty
+  Entry 43 (offset = 000005a0)
+  Bitmap State : Empty
+  Entry 44 (offset = 000005c0)
+  Bitmap State : Empty
+  Entry 45 (offset = 000005e0)
+  Bitmap State : Empty
+  Entry 46 (offset = 00000600)
+  Bitmap State : Empty
+  Entry 47 (offset = 00000620)
+  Bitmap State : Empty
+  Entry 48 (offset = 00000640)
+  Bitmap State : Empty
+  Entry 49 (offset = 00000660)
+  Bitmap State : Empty
+  Entry 50 (offset = 00000680)
+  Bitmap State : Empty
+  Entry 51 (offset = 000006a0)
+  Bitmap State : Empty
+  Entry 52 (offset = 000006c0)
+  Bitmap State : Empty
+  Entry 53 (offset = 000006e0)
+  Bitmap State : Empty
+  Entry 54 (offset = 00000700)
+  Bitmap State : Empty
+  Entry 55 (offset = 00000720)
+  Bitmap State : Empty
+  Entry 56 (offset = 00000740)
+  Bitmap State : Empty
+  Entry 57 (offset = 00000760)
+  Bitmap State : Empty
+  Entry 58 (offset = 00000780)
+  Bitmap State : Empty
+  Entry 59 (offset = 000007a0)
+  Bitmap State : Empty
+  Entry 60 (offset = 000007c0)
+  Bitmap State : Empty
+  Entry 61 (offset = 000007e0)
+  Bitmap State : Empty
+  Entry 62 (offset = 00000800)
+  Bitmap State : Empty
+  Entry 63 (offset = 00000820)
+  Bitmap State : Empty
+  Entry 64 (offset = 00000840)
+  Bitmap State : Empty
+  Entry 65 (offset = 00000860)
+  Bitmap State : Empty
+  Entry 66 (offset = 00000880)
+  Bitmap State : Empty
+  Entry 67 (offset = 000008a0)
+  Bitmap State : Empty
+  Entry 68 (offset = 000008c0)
+  Bitmap State : Empty
+  Entry 69 (offset = 000008e0)
+  Bitmap State : Empty
+  Entry 70 (offset = 00000900)
+  Bitmap State : Empty
+  Entry 71 (offset = 00000920)
+  Bitmap State : Empty
+  Entry 72 (offset = 00000940)
+  Bitmap State : Empty
+  Entry 73 (offset = 00000960)
+  Bitmap State : Empty
+  Entry 74 (offset = 00000980)
+  Bitmap State : Empty
+  Entry 75 (offset = 000009a0)
+  Bitmap State : Empty
+  Entry 76 (offset = 000009c0)
+  Bitmap State : Empty
+  Entry 77 (offset = 000009e0)
+  Bitmap State : Empty
+  Entry 78 (offset = 00000a00)
+  Bitmap State : Empty
+  Entry 79 (offset = 00000a20)
+  Bitmap State : Empty
+  Entry 80 (offset = 00000a40)
+  Bitmap State : Empty
+  Entry 81 (offset = 00000a60)
+  Bitmap State : Empty
+  Entry 82 (offset = 00000a80)
+  Bitmap State : Empty
+  Entry 83 (offset = 00000aa0)
+  Bitmap State : Empty
+  Entry 84 (offset = 00000ac0)
+  Bitmap State : Empty
+  Entry 85 (offset = 00000ae0)
+  Bitmap State : Empty
+  Entry 86 (offset = 00000b00)
+  Bitmap State : Empty
+  Entry 87 (offset = 00000b20)
+  Bitmap State : Empty
+  Entry 88 (offset = 00000b40)
+  Bitmap State : Empty
+  Entry 89 (offset = 00000b60)
+  Bitmap State : Empty
+  Entry 90 (offset = 00000b80)
+  Bitmap State : Empty
+  Entry 91 (offset = 00000ba0)
+  Bitmap State : Empty
+  Entry 92 (offset = 00000bc0)
+  Bitmap State : Empty
+  Entry 93 (offset = 00000be0)
+  Bitmap State : Empty
+  Entry 94 (offset = 00000c00)
+  Bitmap State : Empty
+  Entry 95 (offset = 00000c20)
+  Bitmap State : Empty
+  Entry 96 (offset = 00000c40)
+  Bitmap State : Empty
+  Entry 97 (offset = 00000c60)
+  Bitmap State : Empty
+  Entry 98 (offset = 00000c80)
+  Bitmap State : Empty
+  Entry 99 (offset = 00000ca0)
+  Bitmap State : Empty
+  Entry 100 (offset = 00000cc0)
+  Bitmap State : Empty
+  Entry 101 (offset = 00000ce0)
+  Bitmap State : Empty
+  Entry 102 (offset = 00000d00)
+  Bitmap State : Empty
+  Entry 103 (offset = 00000d20)
+  Bitmap State : Empty
+  Entry 104 (offset = 00000d40)
+  Bitmap State : Empty
+  Entry 105 (offset = 00000d60)
+  Bitmap State : Empty
+  Entry 106 (offset = 00000d80)
+  Bitmap State : Empty
+  Entry 107 (offset = 00000da0)
+  Bitmap State : Empty
+  Entry 108 (offset = 00000dc0)
+  Bitmap State : Empty
+  Entry 109 (offset = 00000de0)
+  Bitmap State : Empty
+  Entry 110 (offset = 00000e00)
+  Bitmap State : Empty
+  Entry 111 (offset = 00000e20)
+  Bitmap State : Empty
+  Entry 112 (offset = 00000e40)
+  Bitmap State : Empty
+  Entry 113 (offset = 00000e60)
+  Bitmap State : Empty
+  Entry 114 (offset = 00000e80)
+  Bitmap State : Empty
+  Entry 115 (offset = 00000ea0)
+  Bitmap State : Empty
+  Entry 116 (offset = 00000ec0)
+  Bitmap State : Empty
+  Entry 117 (offset = 00000ee0)
+  Bitmap State : Empty
+  Entry 118 (offset = 00000f00)
+  Bitmap State : Empty
+  Entry 119 (offset = 00000f20)
+  Bitmap State : Empty
+  Entry 120 (offset = 00000f40)
+  Bitmap State : Empty
+  Entry 121 (offset = 00000f60)
+  Bitmap State : Empty
+  Entry 122 (offset = 00000f80)
+  Bitmap State : Empty
+  Entry 123 (offset = 00000fa0)
+  Bitmap State : Empty
+  Entry 124 (offset = 00000fc0)
+  Bitmap State : Empty
+  Entry 125 (offset = 00000fe0)
+  Bitmap State : Empty
+
+
+------------------------------------------------------------------------------
+
+Page 1 ( offset=00001000 )
+  page state   : EMPTY (0xff 0xff 0xff 0xff) 
+  page seq no. : 4294967295 (0xff 0xff 0xff 0xff) 
+  page version : 1 (0xff) 
+  crc32 : 0xffffffff (offset=0000101c)
+  page entry state bitmap (decoded) : 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+  Read entries data ( offset = 00001040 ):
+  Entry 0 (offset = 00001040)
+  Bitmap State : Empty
+  Entry 1 (offset = 00001060)
+  Bitmap State : Empty
+  Entry 2 (offset = 00001080)
+  Bitmap State : Empty
+  Entry 3 (offset = 000010a0)
+  Bitmap State : Empty
+  Entry 4 (offset = 000010c0)
+  Bitmap State : Empty
+  Entry 5 (offset = 000010e0)
+  Bitmap State : Empty
+  Entry 6 (offset = 00001100)
+  Bitmap State : Empty
+  Entry 7 (offset = 00001120)
+  Bitmap State : Empty
+  Entry 8 (offset = 00001140)
+  Bitmap State : Empty
+  Entry 9 (offset = 00001160)
+  Bitmap State : Empty
+  Entry 10 (offset = 00001180)
+  Bitmap State : Empty
+  Entry 11 (offset = 000011a0)
+  Bitmap State : Empty
+  Entry 12 (offset = 000011c0)
+  Bitmap State : Empty
+  Entry 13 (offset = 000011e0)
+  Bitmap State : Empty
+  Entry 14 (offset = 00001200)
+  Bitmap State : Empty
+  Entry 15 (offset = 00001220)
+  Bitmap State : Empty
+  Entry 16 (offset = 00001240)
+  Bitmap State : Empty
+  Entry 17 (offset = 00001260)
+  Bitmap State : Empty
+  Entry 18 (offset = 00001280)
+  Bitmap State : Empty
+  Entry 19 (offset = 000012a0)
+  Bitmap State : Empty
+  Entry 20 (offset = 000012c0)
+  Bitmap State : Empty
+  Entry 21 (offset = 000012e0)
+  Bitmap State : Empty
+  Entry 22 (offset = 00001300)
+  Bitmap State : Empty
+  Entry 23 (offset = 00001320)
+  Bitmap State : Empty
+  Entry 24 (offset = 00001340)
+  Bitmap State : Empty
+  Entry 25 (offset = 00001360)
+  Bitmap State : Empty
+  Entry 26 (offset = 00001380)
+  Bitmap State : Empty
+  Entry 27 (offset = 000013a0)
+  Bitmap State : Empty
+  Entry 28 (offset = 000013c0)
+  Bitmap State : Empty
+  Entry 29 (offset = 000013e0)
+  Bitmap State : Empty
+  Entry 30 (offset = 00001400)
+  Bitmap State : Empty
+  Entry 31 (offset = 00001420)
+  Bitmap State : Empty
+  Entry 32 (offset = 00001440)
+  Bitmap State : Empty
+  Entry 33 (offset = 00001460)
+  Bitmap State : Empty
+  Entry 34 (offset = 00001480)
+  Bitmap State : Empty
+  Entry 35 (offset = 000014a0)
+  Bitmap State : Empty
+  Entry 36 (offset = 000014c0)
+  Bitmap State : Empty
+  Entry 37 (offset = 000014e0)
+  Bitmap State : Empty
+  Entry 38 (offset = 00001500)
+  Bitmap State : Empty
+  Entry 39 (offset = 00001520)
+  Bitmap State : Empty
+  Entry 40 (offset = 00001540)
+  Bitmap State : Empty
+  Entry 41 (offset = 00001560)
+  Bitmap State : Empty
+  Entry 42 (offset = 00001580)
+  Bitmap State : Empty
+  Entry 43 (offset = 000015a0)
+  Bitmap State : Empty
+  Entry 44 (offset = 000015c0)
+  Bitmap State : Empty
+  Entry 45 (offset = 000015e0)
+  Bitmap State : Empty
+  Entry 46 (offset = 00001600)
+  Bitmap State : Empty
+  Entry 47 (offset = 00001620)
+  Bitmap State : Empty
+  Entry 48 (offset = 00001640)
+  Bitmap State : Empty
+  Entry 49 (offset = 00001660)
+  Bitmap State : Empty
+  Entry 50 (offset = 00001680)
+  Bitmap State : Empty
+  Entry 51 (offset = 000016a0)
+  Bitmap State : Empty
+  Entry 52 (offset = 000016c0)
+  Bitmap State : Empty
+  Entry 53 (offset = 000016e0)
+  Bitmap State : Empty
+  Entry 54 (offset = 00001700)
+  Bitmap State : Empty
+  Entry 55 (offset = 00001720)
+  Bitmap State : Empty
+  Entry 56 (offset = 00001740)
+  Bitmap State : Empty
+  Entry 57 (offset = 00001760)
+  Bitmap State : Empty
+  Entry 58 (offset = 00001780)
+  Bitmap State : Empty
+  Entry 59 (offset = 000017a0)
+  Bitmap State : Empty
+  Entry 60 (offset = 000017c0)
+  Bitmap State : Empty
+  Entry 61 (offset = 000017e0)
+  Bitmap State : Empty
+  Entry 62 (offset = 00001800)
+  Bitmap State : Empty
+  Entry 63 (offset = 00001820)
+  Bitmap State : Empty
+  Entry 64 (offset = 00001840)
+  Bitmap State : Empty
+  Entry 65 (offset = 00001860)
+  Bitmap State : Empty
+  Entry 66 (offset = 00001880)
+  Bitmap State : Empty
+  Entry 67 (offset = 000018a0)
+  Bitmap State : Empty
+  Entry 68 (offset = 000018c0)
+  Bitmap State : Empty
+  Entry 69 (offset = 000018e0)
+  Bitmap State : Empty
+  Entry 70 (offset = 00001900)
+  Bitmap State : Empty
+  Entry 71 (offset = 00001920)
+  Bitmap State : Empty
+  Entry 72 (offset = 00001940)
+  Bitmap State : Empty
+  Entry 73 (offset = 00001960)
+  Bitmap State : Empty
+  Entry 74 (offset = 00001980)
+  Bitmap State : Empty
+  Entry 75 (offset = 000019a0)
+  Bitmap State : Empty
+  Entry 76 (offset = 000019c0)
+  Bitmap State : Empty
+  Entry 77 (offset = 000019e0)
+  Bitmap State : Empty
+  Entry 78 (offset = 00001a00)
+  Bitmap State : Empty
+  Entry 79 (offset = 00001a20)
+  Bitmap State : Empty
+  Entry 80 (offset = 00001a40)
+  Bitmap State : Empty
+  Entry 81 (offset = 00001a60)
+  Bitmap State : Empty
+  Entry 82 (offset = 00001a80)
+  Bitmap State : Empty
+  Entry 83 (offset = 00001aa0)
+  Bitmap State : Empty
+  Entry 84 (offset = 00001ac0)
+  Bitmap State : Empty
+  Entry 85 (offset = 00001ae0)
+  Bitmap State : Empty
+  Entry 86 (offset = 00001b00)
+  Bitmap State : Empty
+  Entry 87 (offset = 00001b20)
+  Bitmap State : Empty
+  Entry 88 (offset = 00001b40)
+  Bitmap State : Empty
+  Entry 89 (offset = 00001b60)
+  Bitmap State : Empty
+  Entry 90 (offset = 00001b80)
+  Bitmap State : Empty
+  Entry 91 (offset = 00001ba0)
+  Bitmap State : Empty
+  Entry 92 (offset = 00001bc0)
+  Bitmap State : Empty
+  Entry 93 (offset = 00001be0)
+  Bitmap State : Empty
+  Entry 94 (offset = 00001c00)
+  Bitmap State : Empty
+  Entry 95 (offset = 00001c20)
+  Bitmap State : Empty
+  Entry 96 (offset = 00001c40)
+  Bitmap State : Empty
+  Entry 97 (offset = 00001c60)
+  Bitmap State : Empty
+  Entry 98 (offset = 00001c80)
+  Bitmap State : Empty
+  Entry 99 (offset = 00001ca0)
+  Bitmap State : Empty
+  Entry 100 (offset = 00001cc0)
+  Bitmap State : Empty
+  Entry 101 (offset = 00001ce0)
+  Bitmap State : Empty
+  Entry 102 (offset = 00001d00)
+  Bitmap State : Empty
+  Entry 103 (offset = 00001d20)
+  Bitmap State : Empty
+  Entry 104 (offset = 00001d40)
+  Bitmap State : Empty
+  Entry 105 (offset = 00001d60)
+  Bitmap State : Empty
+  Entry 106 (offset = 00001d80)
+  Bitmap State : Empty
+  Entry 107 (offset = 00001da0)
+  Bitmap State : Empty
+  Entry 108 (offset = 00001dc0)
+  Bitmap State : Empty
+  Entry 109 (offset = 00001de0)
+  Bitmap State : Empty
+  Entry 110 (offset = 00001e00)
+  Bitmap State : Empty
+  Entry 111 (offset = 00001e20)
+  Bitmap State : Empty
+  Entry 112 (offset = 00001e40)
+  Bitmap State : Empty
+  Entry 113 (offset = 00001e60)
+  Bitmap State : Empty
+  Entry 114 (offset = 00001e80)
+  Bitmap State : Empty
+  Entry 115 (offset = 00001ea0)
+  Bitmap State : Empty
+  Entry 116 (offset = 00001ec0)
+  Bitmap State : Empty
+  Entry 117 (offset = 00001ee0)
+  Bitmap State : Empty
+  Entry 118 (offset = 00001f00)
+  Bitmap State : Empty
+  Entry 119 (offset = 00001f20)
+  Bitmap State : Empty
+  Entry 120 (offset = 00001f40)
+  Bitmap State : Empty
+  Entry 121 (offset = 00001f60)
+  Bitmap State : Empty
+  Entry 122 (offset = 00001f80)
+  Bitmap State : Empty
+  Entry 123 (offset = 00001fa0)
+  Bitmap State : Empty
+  Entry 124 (offset = 00001fc0)
+  Bitmap State : Empty
+  Entry 125 (offset = 00001fe0)
+  Bitmap State : Empty
+
+
+------------------------------------------------------------------------------
+
+Page 2 ( offset=00002000 )
+  page state   : EMPTY (0xff 0xff 0xff 0xff) 
+  page seq no. : 4294967295 (0xff 0xff 0xff 0xff) 
+  page version : 1 (0xff) 
+  crc32 : 0xffffffff (offset=0000201c)
+  page entry state bitmap (decoded) : 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+  Read entries data ( offset = 00002040 ):
+  Entry 0 (offset = 00002040)
+  Bitmap State : Empty
+  Entry 1 (offset = 00002060)
+  Bitmap State : Empty
+  Entry 2 (offset = 00002080)
+  Bitmap State : Empty
+  Entry 3 (offset = 000020a0)
+  Bitmap State : Empty
+  Entry 4 (offset = 000020c0)
+  Bitmap State : Empty
+  Entry 5 (offset = 000020e0)
+  Bitmap State : Empty
+  Entry 6 (offset = 00002100)
+  Bitmap State : Empty
+  Entry 7 (offset = 00002120)
+  Bitmap State : Empty
+  Entry 8 (offset = 00002140)
+  Bitmap State : Empty
+  Entry 9 (offset = 00002160)
+  Bitmap State : Empty
+  Entry 10 (offset = 00002180)
+  Bitmap State : Empty
+  Entry 11 (offset = 000021a0)
+  Bitmap State : Empty
+  Entry 12 (offset = 000021c0)
+  Bitmap State : Empty
+  Entry 13 (offset = 000021e0)
+  Bitmap State : Empty
+  Entry 14 (offset = 00002200)
+  Bitmap State : Empty
+  Entry 15 (offset = 00002220)
+  Bitmap State : Empty
+  Entry 16 (offset = 00002240)
+  Bitmap State : Empty
+  Entry 17 (offset = 00002260)
+  Bitmap State : Empty
+  Entry 18 (offset = 00002280)
+  Bitmap State : Empty
+  Entry 19 (offset = 000022a0)
+  Bitmap State : Empty
+  Entry 20 (offset = 000022c0)
+  Bitmap State : Empty
+  Entry 21 (offset = 000022e0)
+  Bitmap State : Empty
+  Entry 22 (offset = 00002300)
+  Bitmap State : Empty
+  Entry 23 (offset = 00002320)
+  Bitmap State : Empty
+  Entry 24 (offset = 00002340)
+  Bitmap State : Empty
+  Entry 25 (offset = 00002360)
+  Bitmap State : Empty
+  Entry 26 (offset = 00002380)
+  Bitmap State : Empty
+  Entry 27 (offset = 000023a0)
+  Bitmap State : Empty
+  Entry 28 (offset = 000023c0)
+  Bitmap State : Empty
+  Entry 29 (offset = 000023e0)
+  Bitmap State : Empty
+  Entry 30 (offset = 00002400)
+  Bitmap State : Empty
+  Entry 31 (offset = 00002420)
+  Bitmap State : Empty
+  Entry 32 (offset = 00002440)
+  Bitmap State : Empty
+  Entry 33 (offset = 00002460)
+  Bitmap State : Empty
+  Entry 34 (offset = 00002480)
+  Bitmap State : Empty
+  Entry 35 (offset = 000024a0)
+  Bitmap State : Empty
+  Entry 36 (offset = 000024c0)
+  Bitmap State : Empty
+  Entry 37 (offset = 000024e0)
+  Bitmap State : Empty
+  Entry 38 (offset = 00002500)
+  Bitmap State : Empty
+  Entry 39 (offset = 00002520)
+  Bitmap State : Empty
+  Entry 40 (offset = 00002540)
+  Bitmap State : Empty
+  Entry 41 (offset = 00002560)
+  Bitmap State : Empty
+  Entry 42 (offset = 00002580)
+  Bitmap State : Empty
+  Entry 43 (offset = 000025a0)
+  Bitmap State : Empty
+  Entry 44 (offset = 000025c0)
+  Bitmap State : Empty
+  Entry 45 (offset = 000025e0)
+  Bitmap State : Empty
+  Entry 46 (offset = 00002600)
+  Bitmap State : Empty
+  Entry 47 (offset = 00002620)
+  Bitmap State : Empty
+  Entry 48 (offset = 00002640)
+  Bitmap State : Empty
+  Entry 49 (offset = 00002660)
+  Bitmap State : Empty
+  Entry 50 (offset = 00002680)
+  Bitmap State : Empty
+  Entry 51 (offset = 000026a0)
+  Bitmap State : Empty
+  Entry 52 (offset = 000026c0)
+  Bitmap State : Empty
+  Entry 53 (offset = 000026e0)
+  Bitmap State : Empty
+  Entry 54 (offset = 00002700)
+  Bitmap State : Empty
+  Entry 55 (offset = 00002720)
+  Bitmap State : Empty
+  Entry 56 (offset = 00002740)
+  Bitmap State : Empty
+  Entry 57 (offset = 00002760)
+  Bitmap State : Empty
+  Entry 58 (offset = 00002780)
+  Bitmap State : Empty
+  Entry 59 (offset = 000027a0)
+  Bitmap State : Empty
+  Entry 60 (offset = 000027c0)
+  Bitmap State : Empty
+  Entry 61 (offset = 000027e0)
+  Bitmap State : Empty
+  Entry 62 (offset = 00002800)
+  Bitmap State : Empty
+  Entry 63 (offset = 00002820)
+  Bitmap State : Empty
+  Entry 64 (offset = 00002840)
+  Bitmap State : Empty
+  Entry 65 (offset = 00002860)
+  Bitmap State : Empty
+  Entry 66 (offset = 00002880)
+  Bitmap State : Empty
+  Entry 67 (offset = 000028a0)
+  Bitmap State : Empty
+  Entry 68 (offset = 000028c0)
+  Bitmap State : Empty
+  Entry 69 (offset = 000028e0)
+  Bitmap State : Empty
+  Entry 70 (offset = 00002900)
+  Bitmap State : Empty
+  Entry 71 (offset = 00002920)
+  Bitmap State : Empty
+  Entry 72 (offset = 00002940)
+  Bitmap State : Empty
+  Entry 73 (offset = 00002960)
+  Bitmap State : Empty
+  Entry 74 (offset = 00002980)
+  Bitmap State : Empty
+  Entry 75 (offset = 000029a0)
+  Bitmap State : Empty
+  Entry 76 (offset = 000029c0)
+  Bitmap State : Empty
+  Entry 77 (offset = 000029e0)
+  Bitmap State : Empty
+  Entry 78 (offset = 00002a00)
+  Bitmap State : Empty
+  Entry 79 (offset = 00002a20)
+  Bitmap State : Empty
+  Entry 80 (offset = 00002a40)
+  Bitmap State : Empty
+  Entry 81 (offset = 00002a60)
+  Bitmap State : Empty
+  Entry 82 (offset = 00002a80)
+  Bitmap State : Empty
+  Entry 83 (offset = 00002aa0)
+  Bitmap State : Empty
+  Entry 84 (offset = 00002ac0)
+  Bitmap State : Empty
+  Entry 85 (offset = 00002ae0)
+  Bitmap State : Empty
+  Entry 86 (offset = 00002b00)
+  Bitmap State : Empty
+  Entry 87 (offset = 00002b20)
+  Bitmap State : Empty
+  Entry 88 (offset = 00002b40)
+  Bitmap State : Empty
+  Entry 89 (offset = 00002b60)
+  Bitmap State : Empty
+  Entry 90 (offset = 00002b80)
+  Bitmap State : Empty
+  Entry 91 (offset = 00002ba0)
+  Bitmap State : Empty
+  Entry 92 (offset = 00002bc0)
+  Bitmap State : Empty
+  Entry 93 (offset = 00002be0)
+  Bitmap State : Empty
+  Entry 94 (offset = 00002c00)
+  Bitmap State : Empty
+  Entry 95 (offset = 00002c20)
+  Bitmap State : Empty
+  Entry 96 (offset = 00002c40)
+  Bitmap State : Empty
+  Entry 97 (offset = 00002c60)
+  Bitmap State : Empty
+  Entry 98 (offset = 00002c80)
+  Bitmap State : Empty
+  Entry 99 (offset = 00002ca0)
+  Bitmap State : Empty
+  Entry 100 (offset = 00002cc0)
+  Bitmap State : Empty
+  Entry 101 (offset = 00002ce0)
+  Bitmap State : Empty
+  Entry 102 (offset = 00002d00)
+  Bitmap State : Empty
+  Entry 103 (offset = 00002d20)
+  Bitmap State : Empty
+  Entry 104 (offset = 00002d40)
+  Bitmap State : Empty
+  Entry 105 (offset = 00002d60)
+  Bitmap State : Empty
+  Entry 106 (offset = 00002d80)
+  Bitmap State : Empty
+  Entry 107 (offset = 00002da0)
+  Bitmap State : Empty
+  Entry 108 (offset = 00002dc0)
+  Bitmap State : Empty
+  Entry 109 (offset = 00002de0)
+  Bitmap State : Empty
+  Entry 110 (offset = 00002e00)
+  Bitmap State : Empty
+  Entry 111 (offset = 00002e20)
+  Bitmap State : Empty
+  Entry 112 (offset = 00002e40)
+  Bitmap State : Empty
+  Entry 113 (offset = 00002e60)
+  Bitmap State : Empty
+  Entry 114 (offset = 00002e80)
+  Bitmap State : Empty
+  Entry 115 (offset = 00002ea0)
+  Bitmap State : Empty
+  Entry 116 (offset = 00002ec0)
+  Bitmap State : Empty
+  Entry 117 (offset = 00002ee0)
+  Bitmap State : Empty
+  Entry 118 (offset = 00002f00)
+  Bitmap State : Empty
+  Entry 119 (offset = 00002f20)
+  Bitmap State : Empty
+  Entry 120 (offset = 00002f40)
+  Bitmap State : Empty
+  Entry 121 (offset = 00002f60)
+  Bitmap State : Empty
+  Entry 122 (offset = 00002f80)
+  Bitmap State : Empty
+  Entry 123 (offset = 00002fa0)
+  Bitmap State : Empty
+  Entry 124 (offset = 00002fc0)
+  Bitmap State : Empty
+  Entry 125 (offset = 00002fe0)
+  Bitmap State : Empty
+
+
+------------------------------------------------------------------------------
+
+Page 3 ( offset=00003000 )
+  page state   : EMPTY (0xff 0xff 0xff 0xff) 
+  page seq no. : 4294967295 (0xff 0xff 0xff 0xff) 
+  page version : 1 (0xff) 
+  crc32 : 0xffffffff (offset=0000301c)
+  page entry state bitmap (decoded) : 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+  Read entries data ( offset = 00003040 ):
+  Entry 0 (offset = 00003040)
+  Bitmap State : Empty
+  Entry 1 (offset = 00003060)
+  Bitmap State : Empty
+  Entry 2 (offset = 00003080)
+  Bitmap State : Empty
+  Entry 3 (offset = 000030a0)
+  Bitmap State : Empty
+  Entry 4 (offset = 000030c0)
+  Bitmap State : Empty
+  Entry 5 (offset = 000030e0)
+  Bitmap State : Empty
+  Entry 6 (offset = 00003100)
+  Bitmap State : Empty
+  Entry 7 (offset = 00003120)
+  Bitmap State : Empty
+  Entry 8 (offset = 00003140)
+  Bitmap State : Empty
+  Entry 9 (offset = 00003160)
+  Bitmap State : Empty
+  Entry 10 (offset = 00003180)
+  Bitmap State : Empty
+  Entry 11 (offset = 000031a0)
+  Bitmap State : Empty
+  Entry 12 (offset = 000031c0)
+  Bitmap State : Empty
+  Entry 13 (offset = 000031e0)
+  Bitmap State : Empty
+  Entry 14 (offset = 00003200)
+  Bitmap State : Empty
+  Entry 15 (offset = 00003220)
+  Bitmap State : Empty
+  Entry 16 (offset = 00003240)
+  Bitmap State : Empty
+  Entry 17 (offset = 00003260)
+  Bitmap State : Empty
+  Entry 18 (offset = 00003280)
+  Bitmap State : Empty
+  Entry 19 (offset = 000032a0)
+  Bitmap State : Empty
+  Entry 20 (offset = 000032c0)
+  Bitmap State : Empty
+  Entry 21 (offset = 000032e0)
+  Bitmap State : Empty
+  Entry 22 (offset = 00003300)
+  Bitmap State : Empty
+  Entry 23 (offset = 00003320)
+  Bitmap State : Empty
+  Entry 24 (offset = 00003340)
+  Bitmap State : Empty
+  Entry 25 (offset = 00003360)
+  Bitmap State : Empty
+  Entry 26 (offset = 00003380)
+  Bitmap State : Empty
+  Entry 27 (offset = 000033a0)
+  Bitmap State : Empty
+  Entry 28 (offset = 000033c0)
+  Bitmap State : Empty
+  Entry 29 (offset = 000033e0)
+  Bitmap State : Empty
+  Entry 30 (offset = 00003400)
+  Bitmap State : Empty
+  Entry 31 (offset = 00003420)
+  Bitmap State : Empty
+  Entry 32 (offset = 00003440)
+  Bitmap State : Empty
+  Entry 33 (offset = 00003460)
+  Bitmap State : Empty
+  Entry 34 (offset = 00003480)
+  Bitmap State : Empty
+  Entry 35 (offset = 000034a0)
+  Bitmap State : Empty
+  Entry 36 (offset = 000034c0)
+  Bitmap State : Empty
+  Entry 37 (offset = 000034e0)
+  Bitmap State : Empty
+  Entry 38 (offset = 00003500)
+  Bitmap State : Empty
+  Entry 39 (offset = 00003520)
+  Bitmap State : Empty
+  Entry 40 (offset = 00003540)
+  Bitmap State : Empty
+  Entry 41 (offset = 00003560)
+  Bitmap State : Empty
+  Entry 42 (offset = 00003580)
+  Bitmap State : Empty
+  Entry 43 (offset = 000035a0)
+  Bitmap State : Empty
+  Entry 44 (offset = 000035c0)
+  Bitmap State : Empty
+  Entry 45 (offset = 000035e0)
+  Bitmap State : Empty
+  Entry 46 (offset = 00003600)
+  Bitmap State : Empty
+  Entry 47 (offset = 00003620)
+  Bitmap State : Empty
+  Entry 48 (offset = 00003640)
+  Bitmap State : Empty
+  Entry 49 (offset = 00003660)
+  Bitmap State : Empty
+  Entry 50 (offset = 00003680)
+  Bitmap State : Empty
+  Entry 51 (offset = 000036a0)
+  Bitmap State : Empty
+  Entry 52 (offset = 000036c0)
+  Bitmap State : Empty
+  Entry 53 (offset = 000036e0)
+  Bitmap State : Empty
+  Entry 54 (offset = 00003700)
+  Bitmap State : Empty
+  Entry 55 (offset = 00003720)
+  Bitmap State : Empty
+  Entry 56 (offset = 00003740)
+  Bitmap State : Empty
+  Entry 57 (offset = 00003760)
+  Bitmap State : Empty
+  Entry 58 (offset = 00003780)
+  Bitmap State : Empty
+  Entry 59 (offset = 000037a0)
+  Bitmap State : Empty
+  Entry 60 (offset = 000037c0)
+  Bitmap State : Empty
+  Entry 61 (offset = 000037e0)
+  Bitmap State : Empty
+  Entry 62 (offset = 00003800)
+  Bitmap State : Empty
+  Entry 63 (offset = 00003820)
+  Bitmap State : Empty
+  Entry 64 (offset = 00003840)
+  Bitmap State : Empty
+  Entry 65 (offset = 00003860)
+  Bitmap State : Empty
+  Entry 66 (offset = 00003880)
+  Bitmap State : Empty
+  Entry 67 (offset = 000038a0)
+  Bitmap State : Empty
+  Entry 68 (offset = 000038c0)
+  Bitmap State : Empty
+  Entry 69 (offset = 000038e0)
+  Bitmap State : Empty
+  Entry 70 (offset = 00003900)
+  Bitmap State : Empty
+  Entry 71 (offset = 00003920)
+  Bitmap State : Empty
+  Entry 72 (offset = 00003940)
+  Bitmap State : Empty
+  Entry 73 (offset = 00003960)
+  Bitmap State : Empty
+  Entry 74 (offset = 00003980)
+  Bitmap State : Empty
+  Entry 75 (offset = 000039a0)
+  Bitmap State : Empty
+  Entry 76 (offset = 000039c0)
+  Bitmap State : Empty
+  Entry 77 (offset = 000039e0)
+  Bitmap State : Empty
+  Entry 78 (offset = 00003a00)
+  Bitmap State : Empty
+  Entry 79 (offset = 00003a20)
+  Bitmap State : Empty
+  Entry 80 (offset = 00003a40)
+  Bitmap State : Empty
+  Entry 81 (offset = 00003a60)
+  Bitmap State : Empty
+  Entry 82 (offset = 00003a80)
+  Bitmap State : Empty
+  Entry 83 (offset = 00003aa0)
+  Bitmap State : Empty
+  Entry 84 (offset = 00003ac0)
+  Bitmap State : Empty
+  Entry 85 (offset = 00003ae0)
+  Bitmap State : Empty
+  Entry 86 (offset = 00003b00)
+  Bitmap State : Empty
+  Entry 87 (offset = 00003b20)
+  Bitmap State : Empty
+  Entry 88 (offset = 00003b40)
+  Bitmap State : Empty
+  Entry 89 (offset = 00003b60)
+  Bitmap State : Empty
+  Entry 90 (offset = 00003b80)
+  Bitmap State : Empty
+  Entry 91 (offset = 00003ba0)
+  Bitmap State : Empty
+  Entry 92 (offset = 00003bc0)
+  Bitmap State : Empty
+  Entry 93 (offset = 00003be0)
+  Bitmap State : Empty
+  Entry 94 (offset = 00003c00)
+  Bitmap State : Empty
+  Entry 95 (offset = 00003c20)
+  Bitmap State : Empty
+  Entry 96 (offset = 00003c40)
+  Bitmap State : Empty
+  Entry 97 (offset = 00003c60)
+  Bitmap State : Empty
+  Entry 98 (offset = 00003c80)
+  Bitmap State : Empty
+  Entry 99 (offset = 00003ca0)
+  Bitmap State : Empty
+  Entry 100 (offset = 00003cc0)
+  Bitmap State : Empty
+  Entry 101 (offset = 00003ce0)
+  Bitmap State : Empty
+  Entry 102 (offset = 00003d00)
+  Bitmap State : Empty
+  Entry 103 (offset = 00003d20)
+  Bitmap State : Empty
+  Entry 104 (offset = 00003d40)
+  Bitmap State : Empty
+  Entry 105 (offset = 00003d60)
+  Bitmap State : Empty
+  Entry 106 (offset = 00003d80)
+  Bitmap State : Empty
+  Entry 107 (offset = 00003da0)
+  Bitmap State : Empty
+  Entry 108 (offset = 00003dc0)
+  Bitmap State : Empty
+  Entry 109 (offset = 00003de0)
+  Bitmap State : Empty
+  Entry 110 (offset = 00003e00)
+  Bitmap State : Empty
+  Entry 111 (offset = 00003e20)
+  Bitmap State : Empty
+  Entry 112 (offset = 00003e40)
+  Bitmap State : Empty
+  Entry 113 (offset = 00003e60)
+  Bitmap State : Empty
+  Entry 114 (offset = 00003e80)
+  Bitmap State : Empty
+  Entry 115 (offset = 00003ea0)
+  Bitmap State : Empty
+  Entry 116 (offset = 00003ec0)
+  Bitmap State : Empty
+  Entry 117 (offset = 00003ee0)
+  Bitmap State : Empty
+  Entry 118 (offset = 00003f00)
+  Bitmap State : Empty
+  Entry 119 (offset = 00003f20)
+  Bitmap State : Empty
+  Entry 120 (offset = 00003f40)
+  Bitmap State : Empty
+  Entry 121 (offset = 00003f60)
+  Bitmap State : Empty
+  Entry 122 (offset = 00003f80)
+  Bitmap State : Empty
+  Entry 123 (offset = 00003fa0)
+  Bitmap State : Empty
+  Entry 124 (offset = 00003fc0)
+  Bitmap State : Empty
+  Entry 125 (offset = 00003fe0)
+  Bitmap State : Empty
+
+
+------------------------------------------------------------------------------
+
+

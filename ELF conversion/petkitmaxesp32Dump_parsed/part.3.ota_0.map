@@ -1,0 +1,9 @@
+0x40081298
+6
+None 2 48 
+1 parsed/part.3.ota_0.seg1 0x3f400020 0x00000018 True
+2 parsed/part.3.ota_0.seg2 0x3ffbdb60 0x00047098 True
+3 parsed/part.3.ota_0.seg3 0x40080000 0x0004b218 True
+4 parsed/part.3.ota_0.seg4 0x40080400 0x0004b620 True
+5 parsed/part.3.ota_0.seg5 0x400d0020 0x00050018 True
+6 parsed/part.3.ota_0.seg6 0x40084df0 0x00154910 True

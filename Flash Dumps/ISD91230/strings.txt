@@ -1,0 +1,665 @@
+FTF]F
+!x)pd
+hh*F
+AhQ`
+!F(F
+ Fdh
+E`(hA
+ahi`!h@
+F:F!$eFvF/
+4eFvF/
+4eFvF/
+6	>C-	
+eFvF
+eFvF
+vFeFIA
+rFcF
+F*F#F
+bh0F
+G j@
+G j@
+(b(F
+jh x
+019Ud
++F2F!F
+02:Ud
++F2F!F
+]^TI
+ b F
+h/F F
+(FA8
+C 5 F&`)F
+bh(F
+G j@
+RAC	
+FpG]
+@BS@
+RAC	
+FcFRA[
+IBpGcF[
+pGpGpG
+ pGpGpGpG8
+2FiF
+1F8h
+G j@
+G j@
+ b8F
+G j@
+ b(Fm
+pGuF
+iFSF
+SIGRTMEM: Out of heap memory
+: Heap memory corrupted
+  systick os time: %llu
+H@j@
+Q`pG
+IHb(F
+C!F)C
+C1F)`
+C1F!`
+I	hAC
+" !	H
+ HX711_Read ERR! %lld
+  report checksum error! cmd: %d, node: %d, seq: %d, %d 
+!` `C
+T` `C
+F'C>C.`
+@J^Tphy
+TK[h
+CRLc`
+PK[h
+#CMLc`
+LK[h
+#CHLc`
+GK[h
+#CCLc`
+BK[h
+#C>Lc`w
+=K[h
+#C:Lc`n
+8K[h
+#C5Lc`d
+3K[h
+#C0Lc`Z
+#C+L
+#C&L
+@BdpG
+D"LI
+IH@i
+EH@i
+\ hi
+C ``h
+!iC"F
+PP0F
+gpG0
+@#C@
+a!F0F
+)F0F
+FhFAp0F
+hF@x
+)F8F
+"	! F
+ STK3331 init! type:%d
+1F8F
+)F8F
+hRh}&
+  &&& prox L:%d
+ &&& prox R:%d
+==================================================
+!F} 
+`hEC F
+1F F
+8C(`
+h`(F
+0C`b
+C`b0F8C
+!+ @
+" !$H
+` `C
+z` `C@
+z` `C
+Ar` `C
+` `C
+!` `C
+Ae`!aC
+`!aC
+` `C
+@miFIx
+`!aC
+`!aC
+F`"bC
+`!aC
+`!aC
+hF@x
+` `C}I@
+`!aCyJ
+!` `CvJ
+Ae` `CsI@
+@miFIx
+F`"bClK
+%`!aChJ
+`!aCcJ
+F`"bCYK
+`!aCSJ
+`!aCOJ
+%` `CII@
+` `C@
+Az` `CDJ
+` `C
+` `C;I@
+Az` `C9J
+` `C
+`"bC1K
+` `C-I@
+` `C@
+`"bC&K
+!` `C
+@0At
+` `C
+` `C@
+`"bC
+!` `C
+@0At
+!` `C
+A`hF
+`!aC
+`!aC
+qIxAq
+qIxAq
+qIxAq
+ cmd:%d__,
+ 0x%02x 
+ Heart Beat Cmd!
+ SENSOR Cmd!
+ scale Cmd!
+ ADCmoto Cmd!
+ Motor Run Config Cmd! wr:%d
+ MOT_RUNSTA[%d] 
+ MOT_BASE_CFG 
+ MOT_BASE_RUNSTA 
+ error code cmd!
+ set error code! wait user to develop!
+ version code cmd!
+ set version code! wait user to develop!
+ reset mcu cmd! 
+>>>>>>>>>>>>> config data cmd! node: %d_%d %d 
+ get cnfig datas! wait user to develop!
+ LED CFG! node: %d
+ output cmd node is over led_max! node: %d
+ get cnfig datas! wait user to develop! %d 
+!	1aC
+!	1aC
+ 	0`C
+!	1aC
+!	1aC
+h`hh
+!Fhh
+Z ih
+ ihHpih
+ 	0`CXI
+ 	0`CTJ
+ 	0`C
+ `CPJ
+ 	0`CFK
+ 	0`CBI@
+"bC<K
+ `C9I@
+ 	0`C5J
+ `C3I@
+ 	0`C
+ 	0`C
+ 	0`C(I@
+"bC%K
+"bC K
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+!	1aC
+ ctrl_ID:%d -> %d
+ 	0`C
+"	2bC
+ 	0`C
+ 	0`C@
+ 	0`C@
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C@
+ 	0`C@
+ 	0`CvI@
+ 	0`CsJ
+ 	0`C
+ 	0`ChI@
+ 	0`C@
+ 	0`C@
+ 	0`C[I@
+ 	0`CWJ
+ 	0`C
+ 	0`CKI@
+ 	0`C@
+ 	0`C@
+ 	0`C?I@
+ 	0`C;J
+ 	0`C
+ 	0`C1I@
+ 	0`C@
+ 	0`C@
+ 	0`C%I@
+ 	0`C!J
+ 	0`C
+"	2bC
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+#	3cC
+#	3cC
+ 	0`CqJ
+ 	0`CdI@
+ 	0`C@
+	0`CZJ
+ 	0`CRI@
+ 	0`CGJ
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C8J
+ 	0`C
+ 	0`C
+ 	0`C%K
+ 	0`C K
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ new mot_action;%d
+sta_report_node%d
+SCRAM reason:%d
+finished mot_runtime:%d, delt_step:%d
+#	3cC
+#	3cC[
+"F(F
+ 	0`C
+ 	0`C
+ 	0`C
+"	2bC
+"	2bC	K
+ 	0`C
+ 	0`C
+`pG@
+`pGX
+#X@Y@
+F$2 F
+)F F
+Z  p
+phF@yHp)F F
+	H$0DP$8
+xiF	x
+bHH0@]
+!"FJC\IP1P
+THH0A]
+!"FJCPIP1P
+]!F5
+!"FJC!IP1P
+!"FJC
+IP1P
+ ADC[%d]: delay! 
+ADC[%d]: NEW! 
+ GPIO[%d]: %d -> %d! 
+( `CKI@
+(!aCFJ
+ 1Ix
+("bCAK
+("bC<K
+"( !FAC4H
+ ("bC1K
+a( `C
+ 0Bx( `C@
+U( `C
+( `C
+( `C@
+p( `C
+"( `C@
+(!aC
+ 1Hpd
+ GPIO[%d]: %d -> %d! 
+("bC3K
+("bC'K
+("bC
+("bC
+("bC
+"	2bCLK
+"	2bCGK
+"	2bCCK
+"	2bC=K
+"	2bC8K
+"	2bC2K
+ 	0`C,J
+ 	0`C
+ 	0`C
+ 	0`C I@
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+xiF	x
+ moto:
+%d, 
+ 	0`C
+ 	0`C
+ 	0`C
+!	1aC
+ 	0`C
+!	1aC
+ 	0`CzJ
+!	1aCsJ
+ 	0`CmJ
+!	1aCfJ
+1	oE
+ 	0`C^J
+!	1aCXJ
+ 	0`CQJ
+!	1aCKJ
+ 	0`CDJ
+ 	0`C=I@
+!	1aC4J
+ 	0`C-J
+!	1aC'J
+81	nE
+ 	0`C J
+!	1aC
+ 	0`C
+!	1aC
+ 	0`C
+!	1iC
+F3F:F!F
+ ADC_val:%d, cfg:%d_%d, node:%d
+ 	0`C
+ 	0`C
+"	2bC
+"	2bC
+ 	0`C
+ 	0`C|J
+ 	0`CwI@
+ 	0`CrJ
+ 	0`ClI@
+ 	0`CgJ
+0Ar	
+!	1aCWJ
+ 	0`CQI@
+ 	0`CLJ
+ 	0`CGI@
+FY@P@
+"	2bC?K
+"	2bC9K
+"	2bC5O
+ 	0`C)K
+ 	0`C
+ 	0`C
+Cd"PC
+H@h@
+CpG0
++F2F!F
+F(Fp
+ node:%d, priority:%d, interval:%d
+H@\pG`
+F( HC
+H@\pG
+` hC
+z piF(F
+` hC
+ 0!x
+"QC@\
+` hC	I@
+ 0!xQC@
+`` hC
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0HC
+~pGx
+hIhpG
+"+C4CCC5CC
+yd!LC
+HDyd!LC(
+Cd!HC
+Cd!HC
+yd!LC
+ sensor_rpt_interval:%d
+ moto_rpt_interval:%d
+@xpG
+H@\pG
+H@\pG
+H@\pG
+ppG`
+!"FJC
+F*F!F
+ ADC timer init! node:%d, time:%d 
+pK!	
+!	1aC
+!	1aC
+]\h@
+===================PETKIT T4 MCU====================
+HW ver:V%s 
+1.16
+SW ver:V%s 
+aPa0
+F;H@h!
+C9IH`9H
+%IIj
+C$IHb
+I@9D
+ +F "!F
+L `H
+vH@x
+#FVJ
+DH@x
+FDpc, 
+#F$J
+vH@x
+#FVJ
+DH@x
+FDpc, 
+#F$J
+	K@3
+1F(F
+1F(F
+ pGpGp
+)F F
+Z  p
+ q&H
+phF@yHp)F F
+ ADC_moto:
+ 0x%02x 
+)F F
+Z  p
+phF@xHp)F F
+)F F
+Z  p
+#X@Y@
+phF@xHp)F F
+)F F
+Z  p
+x`q0F
+phF@xHp)F F
+ %s Func, malloc failed! %d 
+)F F
+Z  p
+x`q0F
+phF@xHp)F F
+ %s Func, malloc failed! %d 
+)F F
+Z  p
+x`q0F
+phF@xHp)F F
+/J/I0
+)F F
+Z  p
+ q/H
+x`q8
+phF@yHp)F F
+:F1F
+ %s Func, malloc failed! %d 
+ moto_runsta[%d]_type[%d]:
+ 0x%02x 
+Z!hF
+xhFAt0
+phF@yHp
+phF@yHp
+phF@zHp9F
+ report_sensor[%d]:
+0x%02x 
+Z!hF
+xhFAr
+phF@xHp
+phF@xHp
+phF@xHp
+phF@xHp
+phF@xHp
+phF@xHp
+phF@xHp
+phF@xHp)F
+ IR_ADC:
+ 0x%02x 
+)F F
+Z  p
+phF@xHp)F F
+ version: 
+ 0x%02x 
+)F F
+Z  p
+phF@yHp)F F
+!"FJC
+F*F!F
+ ADC timer reset! node:%d, time:%d 
+*H@x
+! HAp
+!NHApH
+( `CCI@
+ 0Ax
+( `C;I@
+ 0Bp8H
+`( `C,I@
+ 0Bx( !FAC(H
+p( `C%I@
+U( `C
+  IO_det[%d] %d -> %d, %d
+hFCy
+ interval- jitter:%d, sens:%d, ADC:%d, HB:%d
+IIh@
+ sensor_rpt_interval:%d
+)F F
+ 	0`C
+ node:%d, type: %d, pos: %d, step_T: %d, action: %d 
+speed: %d, overtime: %d
+!	1aC
+ 	0`C
+ 	0`C
+!	1aC
+ 	0`C
+ 	0`C
+80Ar
+ 	0`C
+ 	0`C
+#Y@X@
+ 	0`C
+m@mY@X@
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+!	1aC
+ 	0`C
+ 	0`C
+!	1aC
+ 	0`C
+ 	0`C
+80Ar
+ 	0`C
+ 	0`C
+#Y@X@
+ 	0`C
+mY@X@
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+!	1aCvK
+ 	0`C
+ 	0`C
+!	1aCfK
+ 	0`C
+ 	0`C
+80Ar
+ 	0`C
+ 	0`CVI@
+"Q@P@
+ 	0`COI@
+#Y@X@
+ 	0`CII@
+ 	0`CFK
+ 	0`C@I@
+ 	0`C=J
+ 	0`C
+!	1aC,K
+ 	0`C
+ 	0`C
+!	1aC
+81Jf
+ 	0`C
+ 	0`C
+80Ar
+ 	0`C
+ 	0`C
+#Y@X@
+ 	0`C
+nY@X@
+ 	0`C
+ XI@
+ 	0`CUK
+ 	0`COI@
+ 	0`CJJ
+ 	0`C
+!	1aC@K
+ 	0`C
+ 	0`C
+!	1aC0K
+ 	0`C
+ 	0`C
+80Ar
+ 	0`C
+ 	0`C I@
+#Y@X@
+ 	0`C
+o@oY@X@
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+ 	0`C
+QppG
+@xpG
+(F A
+(F A
+(F A
+ >>>>>>>>>>>>> set_sensor_scram_en: %x
+!	1AC
+JppGx
+ report_moto_runsta_info
+report_moto_cfg_info
+report_moto_base_runsta_info
+0123456789ABCDEF@0X
+0123456789abcdef@0x

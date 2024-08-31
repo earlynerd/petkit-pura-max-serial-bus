@@ -1,0 +1,4 @@
+# NVS csv file
+key,type,encoding,value
+T4,namespace,,
+data,data,base64,eyJuZXh0VGljayI6MzYwMCwiZGF0YVR5cGUiOiJkZXZfc2VydmVyaW5mbyIsImFwaVNlcnZlcnMiOlsiaHR0cHM6Ly9hcGkucGV0a3QuY29tLzYvIl0sImxpbmtlZCI6MX0A

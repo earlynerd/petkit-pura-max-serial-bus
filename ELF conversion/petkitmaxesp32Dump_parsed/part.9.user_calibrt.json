@@ -1,0 +1,95 @@
+[
+    {
+        "page_state": "ACTIVE",
+        "page_seq_no": 0,
+        "page_version": 2,
+        "page_crc_32": 3115986308,
+        "page_entry_state_bitmap": "000232223333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": [
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "T4",
+                "entry_data_type": "U8",
+                "entry_data": 1
+            },
+            {
+                "entry_state": "Erased",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 2,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 20,
+                "entry_data": "2N19AF6xdABvRGsAPgAAAD8AAAA="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 20,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Empty",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 2,
+                "entry_chunk_index": 0,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 20,
+                "entry_data": "KBNyAKscaAB5Kl4AQQAAAEEAAAA="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 1,
+                "entry_ns": "T4",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 20,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            }
+        ]
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    }
+]
