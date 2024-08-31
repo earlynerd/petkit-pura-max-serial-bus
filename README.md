@@ -51,13 +51,13 @@ get cnfig datas! wait user to develop! %d
 
 # Packet structure
 
-sample packet
-`0x5AA5130218FF80000000000002006400033EA0`
-`0x5AA5`: packet header. packets always begin with this header
-`0x13`: packet total length in bytes including the header
-`0x02`: packet type. `02` is the command that controls motors
-`0x18`: sequence counter
-`0xFF`: always `FF`, no function besides marking the beginning of payload
-`0x80`: the most significant bit in this byte is definitely some sort of flag, and the lower 7 bits may also be flags. TBD.
-`0x00000000000200640003`: payload data. exact meaning TBD. for this motor command, it should indicate which motor, how fast, how much current, etc.
-`0x3EA0`: CRC-16 CCITT with `0xFFFF` seed. sent Least significant byte first (the feeder sent this in the reverse order). 
+sample packet<br/>
+`0x5AA5130218FF80000000000002006400033EA0`<br/>
+`0x5AA5`: packet header. packets always begin with this header<br/>
+`0x13`: packet total length in bytes including the header<br/>
+`0x02`: packet type. `02` is the command that controls motors<br/>
+`0x18`: sequence counter<br/>
+`0xFF`: always `FF`, no function besides marking the beginning of payload<br/>
+`0x80`: the most significant bit in this byte is definitely some sort of flag, and the lower 7 bits may also be flags. TBD.<br/>
+`0x00000000000200640003`: payload data. exact meaning TBD. for this motor command, it should indicate which motor, how fast, how much current, etc.<br/>
+`0x3EA0`: CRC-16 CCITT with `0xFFFF` seed. sent Least significant byte first (the feeder sent this in the reverse order). <br/>
