@@ -77,6 +77,9 @@ get cnfig datas! wait user to develop! %d
 `type 12`: three observed subtypes. fucntion TBD<br/>
 `type 13`: two observed subtypes. TBD<br/>
 
+## ISD -> ESP Command response packet formats
+TBD
+
 # Bus Dynamics
 
 Every ESP32 command must be followed up with an acknowledgement from the ISD. But the ISD also initiates updates to the ESP32 without being queried. When a sensor changes there is a corresponding update.  <br/>
