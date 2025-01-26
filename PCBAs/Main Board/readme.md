@@ -1,4 +1,8 @@
-# ESP32 Pinout Table
+# Main Board Overview
+![Mainboard Overview](breakdown.jpg)
+## Interfaces
+![Mainboard Overview](interfaces.jpg)
+## ESP32 Pinout Table
 
 | ESP32 GPIO    | Package Pin Num | Function    | Strapping Function | Notes                                          |
 | ------------- | ----------------------- | ----------- | ------------------ | ---------------------------------------------- |
