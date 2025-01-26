@@ -32,8 +32,8 @@
 | GPIO_25 | 10 | UART1 - TX, Debug serial log |  |  |
 | GPIO_26 | 11 | "3V3_D" power domain enable |  | Seems to be used mainly for powering hall sensors? |
 | GPIO_27 | 12 | No Connect? |  |  |
-| GPIO_32 | 8  |  |  |  |
-| GPIO_33 | 9  |  |  |  |
+| GPIO_32 | 8  | 3.3V rail measurement? |  |  |
+| GPIO_33 | 9  | No Connect? |  |  |
 | GPIO_34 | 6  | User Button "Menu"  |  | Input Only |
 | GPIO_35 | 7  |  |  | Input Only |
 | GPIO_36 | 4  |  |  | Input Only |
