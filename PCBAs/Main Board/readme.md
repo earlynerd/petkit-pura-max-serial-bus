@@ -4,7 +4,7 @@
 | ------------- | ----------------------- | ----------- | ------------------ | ---------------------------------------------- |
 | GPIO_0 | 25  | User Button "OK" | Bootloader Entry |  |
 | GPIO_1 | 35  | UART0 - TX, MCU bus, bootloader |  |  |
-| GPIO_2 | 24  |  | Bootloader Entry |  |
+| GPIO_2 | 24  | OLED Bias Regulator Enable | Bootloader Entry |  |
 | GPIO_3 | 34  | UART0 - RX, MCU bus, bootloader |  |  |
 | GPIO_4 | 26  | I2C - SCL |  | Bus used for RTC |
 | GPIO_5 | 29  | OLED SPI - CS | SDIO Timing |  |
