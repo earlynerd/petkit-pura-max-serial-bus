@@ -18,8 +18,9 @@
 | GPIO_9 | 17  | Internal flash ROM use only |  |  |
 | GPIO_10 | 18 | Internal flash ROM use only |  |  |
 | GPIO_11 | 19 | Internal flash ROM use only |  |  |
-| GPIO_12 | 14 |  | Internal LDO voltage select |  |
+| GPIO_12 | 14 | No Connect? | Internal LDO voltage select |  |
 | GPIO_13 | 16 | Beeper |  |  |
+| GPIO_14 | 17 | No Connect? |  |  |
 | GPIO_15 | 23 | I2C - SDA | Enable boot log uart0, SDIO timing | Bus used for RTC |
 | GPIO_16 | 27 |  |  |  |
 | GPIO_17 | 28 | OLED RESET |  |  |
@@ -29,8 +30,8 @@
 | GPIO_22 | 36 |  |  |  |
 | GPIO_23 | 37 | OLED SPI - MISO |  |  |
 | GPIO_25 | 10 | UART1 - TX, Debug serial log |  |  |
-| GPIO_26 | 11 |  |  |  |
-| GPIO_27 | 12 |  |  |  |
+| GPIO_26 | 11 | "3V3_D" power domain enable |  | Seems to be used mainly for powering hall sensors? |
+| GPIO_27 | 12 | No Connect? |  |  |
 | GPIO_32 | 8  |  |  |  |
 | GPIO_33 | 9  |  |  |  |
 | GPIO_34 | 6  | User Button "Menu"  |  | Input Only |
