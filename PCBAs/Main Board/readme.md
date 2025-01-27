@@ -22,7 +22,7 @@
 | GPIO_13 | 16 |  |  |  |
 | GPIO_14 | 17 | No Connect? |  |  |
 | GPIO_15 | 23 | I2C - SDA | Enable boot log uart0, SDIO timing | Bus used for RTC |
-| GPIO_16 | 27 | beeper |  |  |
+| GPIO_16 | 27 | Beeper |  |  |
 | GPIO_17 | 28 | OLED RESET |  |  |
 | GPIO_18 | 30 | OLED SPI - SCK |  |  |
 | GPIO_19 | 31 | OLED DC |  |  |
