@@ -28,7 +28,7 @@
 | GPIO_19 | 31 | OLED DC |  |  |
 | GPIO_21 | 33 |  |  |  |
 | GPIO_22 | 36 |  |  |  |
-| GPIO_23 | 37 | OLED SPI - MISO |  |  |
+| GPIO_23 | 37 | OLED SPI - MOSI |  |  |
 | GPIO_25 | 10 | UART1 - TX, Debug serial log |  |  |
 | GPIO_26 | 11 | "3V3_D" power domain enable |  | Seems to be used mainly for powering hall sensors? |
 | GPIO_27 | 12 | No Connect? |  |  |
