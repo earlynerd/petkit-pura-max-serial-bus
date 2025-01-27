@@ -19,10 +19,10 @@
 | GPIO_10 | 18 | Internal flash ROM use only |  |  |
 | GPIO_11 | 19 | Internal flash ROM use only |  |  |
 | GPIO_12 | 14 | No Connect? | Internal LDO voltage select |  |
-| GPIO_13 | 16 | Beeper |  |  |
+| GPIO_13 | 16 |  |  |  |
 | GPIO_14 | 17 | No Connect? |  |  |
 | GPIO_15 | 23 | I2C - SDA | Enable boot log uart0, SDIO timing | Bus used for RTC |
-| GPIO_16 | 27 |  |  |  |
+| GPIO_16 | 27 | beeper |  |  |
 | GPIO_17 | 28 | OLED RESET |  |  |
 | GPIO_18 | 30 | OLED SPI - SCK |  |  |
 | GPIO_19 | 31 | OLED DC |  |  |
