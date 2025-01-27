@@ -10,8 +10,8 @@ Some major hints to the structure of the packets can be found simply by running 
 I've also had some success with conversion of the bin file back to an ELF file using ESP32Knife, and then decompile in Ghidra using the svdloader plugin.  <br/>
 
 
-The ISD91230 appears to eb responsible for motor control, beep/audio, reading 4x half-bridge loadcells via an i2c frontend, reading a pair of ambient light and proximity i2c sensors for cat detection, monitoring 6x hall effect sensors. 
-The ESP32 handles all high level tasks and seems to interface directly to the RTCC and the OLED display. 
+The ISD91230 appears to eb responsible for motor control, reading 4x half-bridge loadcells via an HX711 i2c frontend, reading a pair of STK3331 ambient light and proximity i2c sensors for cat detection, monitoring 6x hall effect sensors. 
+The ESP32 handles all high level tasks and seems to interface directly to the RTCC and the SH1107 OLED display. 
 Theres handy labeled testpoints and headers available onboard. SWD for the ISD, and the UART pins for the ESP32. 
 
 # Packet structure
