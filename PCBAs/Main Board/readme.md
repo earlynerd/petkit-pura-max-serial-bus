@@ -1,9 +1,11 @@
 # Main Board Overview
+![transparent](transparency.jpg)
 ![Mainboard Overview](breakdown.jpg)
 ## Interfaces
 ![Mainboard Overview](interfaces.jpg)
 ## Maskless
-![lasered](bottom_lasered.JPG)
+![lasered_top](top_lasered.JPG)
+![lasered_bottom](bottom_lasered.JPG)
 ## ESP32 Pinout Table
 
 | ESP32 GPIO    | Package Pin Num | Function    | Strapping Function | Notes                                          |
