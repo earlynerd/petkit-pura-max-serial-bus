@@ -1,5 +1,5 @@
 # Main Board Overview
-![transparent](transparency.jpg)
+![transparent](transparency.png)
 ![Mainboard Overview](breakdown.jpg)
 ## Interfaces
 ![Mainboard Overview](interfaces.jpg)
